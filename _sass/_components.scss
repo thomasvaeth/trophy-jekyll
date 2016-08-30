@@ -1,0 +1,16 @@
+// Blog Post Preview
+.preview {
+  padding: 4em 8em;
+
+  &__link {
+    display: block;
+  }
+
+  &__date {
+    font-family: $font-header;
+  }
+
+  &__header {
+
+  }
+}

@@ -3,16 +3,20 @@ layout: default
 ---
 <div>
 
-  <h1>Posts</h1>
+  <figure class="absolute-bg" style="background-image: url('https://unsplash.it/2000/1200?image=1058');"></figure>
+
+</div>
+
+<div>
 
   <ul>
     {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+      <li class="preview">
+        <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="preview__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2 class="preview__header">{{ post.title }}</h2>
+          {{ post.excerpt }}
+        </a>
       </li>
     {% endfor %}
   </ul>

@@ -1,2 +1,30 @@
 $font-header: 'Space Mono', monospace;
 $font-body: 'Lora', serif;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-body;
+  line-height: 1.4;
+}
+
+h1, h2 {
+  font-family: $font-header;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
