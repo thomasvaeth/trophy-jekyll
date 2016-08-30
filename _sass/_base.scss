@@ -1,9 +1,10 @@
 $font-header: 'Space Mono', monospace;
 $font-body: 'Lora', serif;
 
-*,
-*:before,
-*:after {
+$color-black: #000;
+$color-white: #fff;
+
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -24,7 +25,9 @@ figure {
   margin: 0;
 }
 
-ul {
+ol, ul {
   margin: 0;
   padding: 0;
+
+  list-style-type: none;
 }

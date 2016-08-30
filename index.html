@@ -7,18 +7,34 @@ layout: default
 
 </div>
 
-<div>
+<div class="bg-white">
 
   <ul>
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li class="preview">
         <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}">
           <span class="preview__date">{{ post.date | date: "%b %-d, %Y" }}</span>
           <h2 class="preview__header">{{ post.title }}</h2>
-          {{ post.excerpt }}
+          <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
         </a>
       </li>
     {% endfor %}
   </ul>
+
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">Previous</a>
+      {% else %}
+        <span>Previous</span>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">Next</a>
+      {% else %}
+        <span>Next</span>
+      {% endif %}
+    </div>
+  {% endif %}
 
 </div>

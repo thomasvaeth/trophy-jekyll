@@ -5,6 +5,8 @@ main {
 
     &:first-child {
       position: fixed;
+      top: 0;
+      left: 0;
 
       height: 100%;
       width: 45%;
@@ -12,7 +14,6 @@ main {
 
     &:last-child {
       min-height: 100vh;
-      width: 100%;
       margin-left: 45%;
     }
   }

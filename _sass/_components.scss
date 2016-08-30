@@ -2,6 +2,10 @@
 .preview {
   padding: 4em 8em;
 
+  &:nth-child(odd) {
+    background-color: $color-white;
+  }
+
   &__link {
     display: block;
   }
@@ -12,5 +16,23 @@
 
   &__header {
 
+  }
+}
+
+// Pagination
+.pagination {
+  @extend %letter-spacing;
+  
+  display: flex;
+
+  font-family: $font-header;
+  text-transform: uppercase;
+
+  & > * {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+    padding: 2em 0;
   }
 }
