@@ -1,28 +1,47 @@
 // Blog Post Preview
 .preview {
-  padding: 4em 8em;
-
-  &:nth-child(odd) {
-    background-color: $color-white;
-  }
 
   &__link {
     display: block;
+    padding: 4em 8em;
+
+    transition: background-color 0.4s ease-in-out;
+
+    &:nth-child(odd) {
+      background-color: $color-grey;
+    }
+
+    &:hover {
+      background-color: $color-alpha--light;
+    }
   }
 
   &__date {
     font-family: $font-header;
+    color: $color-black;
   }
 
   &__header {
+    color: $color-alpha;
+  }
 
+  &__excerpt {
+    color: $color-black;
+  }
+
+  &__more {
+    @extend %letter-spacing;
+
+    font-family: $font-header;
+    text-transform: uppercase;
+    color: $color-alpha;
   }
 }
 
 // Pagination
 .pagination {
   @extend %letter-spacing;
-  
+
   display: flex;
 
   font-family: $font-header;
@@ -34,5 +53,16 @@
     flex: 1;
 
     padding: 2em 0;
+  }
+
+  a {
+    color: $color-white;
+    background-color: $color-black;
+
+    transition: background-color 0.4s ease-in-out;
+
+    &:hover {
+      background-color: $color-alpha;
+    }
   }
 }

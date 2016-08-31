@@ -3,7 +3,9 @@ layout: default
 ---
 <div>
 
-  <figure class="absolute-bg" style="background-image: url('https://unsplash.it/2000/1200?image=1058');"></figure>
+  {% for post in paginator.posts %}
+    <figure class="absolute-bg" style="background-image: url('{{ post.image }}');"></figure>
+  {% endfor %}
 
 </div>
 
@@ -15,7 +17,8 @@ layout: default
         <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}">
           <span class="preview__date">{{ post.date | date: "%b %-d, %Y" }}</span>
           <h2 class="preview__header">{{ post.title }}</h2>
-          <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+          <p class="preview__excerpt">{{ post.content | strip_html | truncatewords: 30 }}</p>
+          <span class="preview__more">Read More</span>
         </a>
       </li>
     {% endfor %}
@@ -25,14 +28,10 @@ layout: default
     <div class="pagination">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}">Previous</a>
-      {% else %}
-        <span>Previous</span>
       {% endif %}
 
       {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}">Next</a>
-      {% else %}
-        <span>Next</span>
       {% endif %}
     </div>
   {% endif %}
