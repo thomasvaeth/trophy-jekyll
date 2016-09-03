@@ -13,11 +13,15 @@ main {
 
       height: 100%;
       width: 45%;
+
+      background-color: $color-black;
     }
 
     &:last-child {
       min-height: 100vh;
       margin-left: 45%;
+
+      background-color: $color-white;
     }
   }
 }

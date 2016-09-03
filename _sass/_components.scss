@@ -1,19 +1,19 @@
 // Blog Post Preview
 .preview {
+  
+  &:nth-child(odd) {
+    background-color: $color-grey;
+  }
+
+  &:hover {
+    background-color: $color-alpha--light;
+  }
 
   &__link {
     display: block;
     padding: 4em 8em;
 
     transition: background-color 0.4s ease-in-out;
-
-    &:nth-child(odd) {
-      background-color: $color-grey;
-    }
-
-    &:hover {
-      background-color: $color-alpha--light;
-    }
   }
 
   &__date {

@@ -3,15 +3,15 @@ layout: default
 ---
 <main class="index">
 
-  <div class="bg-black">
+  <div>
 
     {% for post in paginator.posts %}
-      <figure class="absolute-bg" style="background-image: url('{{ post.image }}');"></figure>
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
     {% endfor %}
 
   </div>
 
-  <div class="bg-white">
+  <div>
 
     <ul itemscope itemtype="http://schema.org/Blog">
       {% for post in paginator.posts %}
