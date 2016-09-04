@@ -1,3 +1,6 @@
+/**
+ * Base Variables
+ */
 $font-header: 'Space Mono', monospace;
 $font-body: 'Inconsolata', monospace;
 
@@ -8,13 +11,48 @@ $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
 $color-white: #fff;
 
+$mq-xs: 20em;
+$mq-sm: 30em;
+$mq-md: 48em;
+$mq-lg: 64em;
+$mq-xl: 76.5em;
+$mq-xxl: 114em;
+
+/**
+ * Base Settings/Overwrite Normalize
+ */
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
   font-family: $font-body;
+  font-size: 100%;
   line-height: 1.6;
+
+  @media (min-width: $mq-xs) {
+    font-size: 102.5%;
+  }
+
+  @media (min-width: $mq-sm) {
+    font-size: 105%;
+  }
+
+  @media (min-width: $mq-md) {
+    font-size: 107.5%;
+  }
+
+  @media (min-width: $mq-lg) {
+    font-size: 110%;
+  }
+
+  @media (min-width: $mq-xl) {
+    font-size: 115%;
+  }
+
+  @media (min-width: $mq-xxl) {
+    font-size: 125%;
+  }
 }
 
 h1, h2 {
@@ -42,6 +80,9 @@ ol, ul {
   list-style-type: none;
 }
 
+/**
+ * Text Selection
+ */
 ::selection {
   color: $color-white;
   background-color: $color-alpha;

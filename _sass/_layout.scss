@@ -1,3 +1,6 @@
+/**
+ * Sections
+ */
 section {
   position: relative;
 }
@@ -10,12 +13,17 @@ section {
   }
 }
 
+/**
+ * Class Container (BEM)
+ */
 [class*='__container'] {
   position: relative;
   z-index: 1;
 }
 
-// Index
+/**
+ * Blog page
+ */
 .previews {
 
   & > * {

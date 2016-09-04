@@ -1,4 +1,6 @@
-// Absolute Background
+/**
+ * Absolute Background Cover
+ */
 .absolute-bg {
   position: absolute;
   top: 0;
@@ -12,7 +14,9 @@
   background-position: 50%;
 }
 
-// Color Helpers
+/**
+ * Color Helpers
+ */
 .bg-black {
   background-color: $color-black;
 }

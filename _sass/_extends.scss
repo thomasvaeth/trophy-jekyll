@@ -1,9 +1,13 @@
-// Letter Spacing
+/**
+ * Letter Spacing
+ */
 %letter-spacing {
   letter-spacing: 0.05em;
 }
 
-// Black Color Overlay
+/**
+ * Black Color Overlay
+ */
 %overlay {
   content: '';
   position: absolute;
@@ -14,5 +18,5 @@
   width: 100%;
 
   background-color: rgba($color-black, 0.2);
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }

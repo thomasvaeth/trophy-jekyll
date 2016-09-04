@@ -1,4 +1,7 @@
-// Blog Post Preview
+/**
+ * Blog Post Preview
+ * On the Blog page on the right side
+ */
 .preview {
   transition: background-color 0.2s ease-in-out;
   
@@ -8,6 +11,11 @@
 
   &:hover {
     background-color: $color-alpha--light;
+
+    .preview__more {
+      box-shadow: inset 175px 0 0 0 $color-alpha;
+      color: $color-white;
+    }
   }
 
   &__img {
@@ -26,24 +34,33 @@
 
   &__header {
     color: $color-alpha;
+
+    margin-bottom: 0.5em;
   }
 
   &__excerpt {
-    margin: 0;
-
     color: $color-black;
   }
 
   &__more {
     @extend %letter-spacing;
 
+    display: inline-block;
+    padding: 0.5em;
+
     font-family: $font-header;
     text-transform: uppercase;
     color: $color-alpha;
+    border: 3px solid $color-alpha;
+    box-shadow: inset 0 0 0 0 $color-alpha;
+    transition: all 0.4s ease-in-out;
   }
 }
 
-// Pagination
+/**
+ * Pagination
+ * On the Blog page when enough posts to paginate
+ */
 .pagination {
   @extend %letter-spacing;
 
@@ -77,7 +94,10 @@
   }
 }
 
-// Mast
+/**
+ * Mast
+ * On the Post page for the header section
+ */
 .mast {
   position: relative;
 
@@ -99,17 +119,27 @@
   }
 }
 
-// Blog Post
+/**
+ * Post
+ */
 .post {
-  width: 60%;
+  width: 90%;
+  max-width: $mq-md;
   margin: 0 auto;
+
+  @media (min-width: $mq-md) {
+    width: 55%;
+  }
 
   p:first-child {
     font-size: 1.25em;
   }
 }
 
-// Next Post
+/**
+ * Next Post
+ * One the Post page for single post pagination
+ */
 .next {
   background-color: $color-black;
 
