@@ -14,11 +14,17 @@ $color-white: #fff;
 
 body {
   font-family: $font-body;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 h1, h2 {
+  margin: 0;
+
   font-family: $font-header;
+}
+
+p {
+  margin: 0 0 0.75em;
 }
 
 a {
@@ -34,4 +40,10 @@ ol, ul {
   padding: 0;
 
   list-style-type: none;
+}
+
+::selection {
+  color: $color-white;
+  background-color: $color-alpha;
+  text-shadow: none;
 }

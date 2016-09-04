@@ -1,19 +1,22 @@
 // Blog Post Preview
 .preview {
+  transition: background-color 0.2s ease-in-out;
   
-  &:nth-child(odd) {
-    background-color: $color-grey;
+  &:nth-child(even) {
+    background-color: $color-white;
   }
 
   &:hover {
     background-color: $color-alpha--light;
   }
 
+  &__img {
+    animation: fade-in 1s ease-in-out;
+  }
+
   &__link {
     display: block;
     padding: 4em 8em;
-
-    transition: background-color 0.4s ease-in-out;
   }
 
   &__date {
@@ -26,6 +29,8 @@
   }
 
   &__excerpt {
+    margin: 0;
+
     color: $color-black;
   }
 
@@ -42,7 +47,12 @@
 .pagination {
   @extend %letter-spacing;
 
+  // position: absolute;
+  // left: 0;
+  // bottom: 0;
+
   display: flex;
+  width: 100%;
 
   font-family: $font-header;
   text-transform: uppercase;
@@ -64,5 +74,68 @@
     &:hover {
       background-color: $color-alpha;
     }
+  }
+}
+
+// Mast
+.mast {
+  position: relative;
+
+  height: 35em;
+
+  color: $color-white;
+  background-color: $color-black;
+
+  &:after {
+    @extend %overlay;
+  }
+
+  &__img {
+    animation: fade-in 2s ease-in-out;
+  }
+
+  &__container {
+    height: 100%;
+  }
+}
+
+// Blog Post
+.post {
+  width: 60%;
+  margin: 0 auto;
+
+  p:first-child {
+    font-size: 1.25em;
+  }
+}
+
+// Next Post
+.next {
+  background-color: $color-black;
+
+  &__link {
+    display: block;
+    height: 25em;
+    padding: 6em 0;
+
+    color: $color-white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    &:after {
+      @extend %overlay;
+    }
+
+    &:hover:after {
+      background-color: rgba($color-alpha, 0.8);
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
 }

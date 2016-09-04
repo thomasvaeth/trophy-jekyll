@@ -1,5 +1,6 @@
 # Site settings
 title: Trophy
+headline: 
 email: thomas.vaeth@gmail.com
 description: Trophy is a blog theme for Jekyll by Thomas Vaeth in Seattle, WA.
 baseurl: ""

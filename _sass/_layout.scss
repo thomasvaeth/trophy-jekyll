@@ -1,8 +1,22 @@
-main {
-  display: flex;
+section {
+  position: relative;
 }
 
-.index {
+.section-padding {
+  padding: 4em 0;
+
+  &--lg {
+    padding: 6em 0;
+  }
+}
+
+[class*='__container'] {
+  position: relative;
+  z-index: 1;
+}
+
+// Index
+.previews {
 
   & > * {
 
@@ -15,13 +29,19 @@ main {
       width: 45%;
 
       background-color: $color-black;
+
+      &:after {
+        @extend %overlay;
+      }
     }
 
     &:last-child {
+      // position: relative;
+
       min-height: 100vh;
       margin-left: 45%;
 
-      background-color: $color-white;
+      background-color: $color-grey;
     }
   }
 }

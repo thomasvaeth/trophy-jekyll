@@ -3,13 +3,26 @@ layout: default
 ---
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header>
-    <h1 itemprop="name headline">{{ page.title }}</h1>
-    <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+  <header class="section-padding--lg mast">
+    <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
+    <div class="mast__container">
+      <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+    </div>
   </header>
 
-  <div itemprop="articleBody">
+  <section class="section-padding post" itemprop="articleBody">
     {{ content }}
-  </div>
+  </section>
 
 </article>
+
+{% if page.previous.url %}
+  <section class="next">
+    <a class="next__link" href="{{page.previous.url}}" style="background-image: url('{{ page.previous.image }}');">
+      <div class="next__container">
+        <h2>{{page.previous.title}}</h2>
+      </div>
+    </a>
+  </section>
+{% endif %}

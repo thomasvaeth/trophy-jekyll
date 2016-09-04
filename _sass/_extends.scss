@@ -2,3 +2,17 @@
 %letter-spacing {
   letter-spacing: 0.05em;
 }
+
+// Black Color Overlay
+%overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba($color-black, 0.2);
+  transition: background-color 0.2s ease-in-out;
+}
