@@ -80,17 +80,62 @@
   }
 
   &__more {
-    @extend %letter-spacing;
+    @include button-slide();
+  }
+}
 
-    display: inline-block;
-    padding: 0.5em;
+/**
+ * Category Card
+ * On the blog page under category tab
+ */
+.cards {
+  @include flex-grid(1, 2, $xxl: 3, $pad: 0.25em);
 
-    font-family: $font-header;
-    text-transform: uppercase;
+  padding: 4em 2em;
+}
+
+.card {
+
+  &__link {
+    display: block;
+
+    background-color: $color-white;
+
+    &:hover {
+      
+      .card__more {
+        box-shadow: inset 175px 0 0 0 $color-alpha;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__img {
+    position: relative;
+
+    height: 12em;
+
+    background-color: $color-black;
+
+    &:after {
+      @extend %overlay;
+    }
+  }
+
+  &__container {
+    padding: 2em 1em;
+  }
+
+  &__header {
     color: $color-alpha;
-    border: 3px solid $color-alpha;
-    box-shadow: inset 0 0 0 0 $color-alpha;
-    transition: all 0.4s ease-in-out;
+  }
+
+  &__count {
+    color: $color-black;
+  }
+
+  &__more {
+    @include button-slide(0.25em);
   }
 }
 
