@@ -1,9 +1,11 @@
 ---
 layout: default
+title: Brunch
+permalink: /category/brunch/
 ---
 <section class="previews">
   <div>
-    {% for post in paginator.posts %}
+    {% for post in site.categories[page.title] %}
       <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
     {% endfor %}
   </div>
@@ -11,12 +13,12 @@ layout: default
   <div>
     <header>
       <ul class="tabs">
-        <li class="tabs__item">Posts</li>
+        <li class="tabs__item">{{ page.title }}</li>
         <li class="tabs__item">Categories</li>
       </ul>
     </header>
     <ul class="tab" itemscope itemtype="http://schema.org/Blog">
-      {% for post in paginator.posts %}
+      {% for post in site.categories[page.title] %}
         <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
           <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
             <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -40,17 +42,6 @@ layout: default
       {% endfor %}
     </ul>
 
-    {% if paginator.total_pages > 1 %}
-      <div class="pagination">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}">Previous</a>
-        {% endif %}
-
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}">Next</a>
-        {% endif %}
-      </div>
-    {% endif %}
   </div>
 
 </section>

@@ -11,8 +11,9 @@ paginate: 10
 paginate_path: "/blog/page-:num"
 
 # Build settings
+include: ["_categories"]
 markdown: kramdown
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 
 # Default Settings
 

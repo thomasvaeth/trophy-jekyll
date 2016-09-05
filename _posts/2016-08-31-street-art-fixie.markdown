@@ -2,6 +2,8 @@
 layout: post
 title: "Street Art Fixie"
 date: 2016-08-31
+categories:
+  - Cities
 image: https://unsplash.it/2000/1200?image=818
 ---
 Retro fanny pack chambray sartorial single-origin coffee. Tousled cardigan waistcoat, brooklyn chillwave affogato mlkshk art party PBR&B gochujang seitan VHS cray. Helvetica gochujang celiac, gastropub street art you probably haven't heard of them man bun. Four loko chicharrones venmo post-ironic taxidermy. Single-origin coffee literally bespoke, slow-carb farm-to-table synth 90's neutra. Migas art party trust fund bitters vinyl portland. Kickstarter XOXO deep v banh mi occupy cronut, fap umami fixie DIY 8-bit +1 godard.

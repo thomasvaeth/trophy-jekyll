@@ -1,4 +1,36 @@
 /**
+ * Tabs
+ * On the Blog page for posts and categories
+ */
+.tabs {
+  @extend %letter-spacing;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+
+  font-family: $font-header;
+  text-transform: uppercase;
+
+  @media (min-width: $mq-md) {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+  
+  &__item {
+    cursor: pointer;
+
+    &:not(.active) {
+      @include border-slide();
+    }
+
+    &.active {
+      border-bottom: 3px solid $color-alpha;
+    }
+  }
+}
+
+/**
  * Blog Post Preview
  * On the Blog page on the right side
  */
@@ -19,12 +51,17 @@
   }
 
   &__img {
+    will-change: opacity;
     animation: fade-in 1s ease-in-out;
   }
 
   &__link {
     display: block;
-    padding: 4em 8em;
+    padding: 2em 1em;
+
+    @media (min-width: $mq-md) {
+      padding: 4em 8em;
+    }
   }
 
   &__date {

@@ -26,17 +26,28 @@ section {
  */
 .previews {
 
+  @media (max-width: $mq-md) {
+    display: flex;
+    flex-direction: column;
+  }
+
   & > * {
 
     &:first-child {
-      position: fixed;
-      top: 0;
-      left: 0;
+      position: relative;
 
-      height: 100%;
-      width: 45%;
+      height: 30em;
 
       background-color: $color-black;
+
+      @media (min-width: $mq-md) {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        height: 100%;
+        width: 45%;
+      }
 
       &:after {
         @extend %overlay;
@@ -47,9 +58,12 @@ section {
       // position: relative;
 
       min-height: 100vh;
-      margin-left: 45%;
 
       background-color: $color-grey;
+
+      @media (min-width: $mq-md) {
+        margin-left: 45%;
+      }
     }
   }
 }

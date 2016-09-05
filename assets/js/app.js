@@ -3,7 +3,7 @@ var Tabs = (function() {
 
   return {
     settings: {
-      tabs: document.getElementsByClassName('tabs')[0].getElementsByTagName('li'),
+      tabs: document.getElementsByClassName('tabs__item'),
       tab: document.getElementsByClassName('tab')
     },
 
@@ -20,6 +20,7 @@ var Tabs = (function() {
         });
         s.tab[0].style.display = 'block';
         s.tab[0].classList.add('active');
+        s.tabs[0].classList.add('active');
       }
     },
 
@@ -36,8 +37,10 @@ var Tabs = (function() {
             if (prevIdx !== currentIdx) {
               s.tab[prevIdx].style.display = 'none';
               s.tab[prevIdx].classList.remove('active');
+              s.tabs[prevIdx].classList.remove('active');
               s.tab[currentIdx].style.display = 'block';
               s.tab[currentIdx].classList.add('active');
+              s.tabs[currentIdx].classList.add('active');
             }
           });
         });

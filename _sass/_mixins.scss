@@ -1,0 +1,23 @@
+/**
+ * Underline Slide from left and back
+ */
+@mixin border-slide($mainColor: $color-black, $borderColor: $color-alpha, $height: 3px) {
+  position: relative;
+
+  color: $mainColor;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 0%;
+    border-bottom: $height solid $borderColor;
+    transition: width 0.4s ease-in-out;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+}
