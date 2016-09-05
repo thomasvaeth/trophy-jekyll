@@ -127,6 +127,8 @@
   max-width: $mq-md;
   margin: 0 auto;
 
+  font-family: $font-post;
+
   @media (min-width: $mq-md) {
     width: 55%;
   }

@@ -1,42 +1,54 @@
 ---
 layout: default
 ---
-<main>
+<section class="previews">
+  <div>
+    {% for post in paginator.posts %}
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
+    {% endfor %}
+  </div>
 
-  <section class="previews">
-    <div>
-      {% for post in paginator.posts %}
-        <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
-      {% endfor %}
-    </div>
-
-    <div>
-      <ul itemscope itemtype="http://schema.org/Blog">
-        {% for post in paginator.posts %}
-          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-              <span class="preview__more">Read More</span>
-            </a>
-          </li>
-        {% endfor %}
+  <div class="section-padding">
+    <header>
+      <ul class="tabs" style="display: flex;">
+        <li>Posts</li>
+        <li>Categories</li>
       </ul>
+    </header>
+    <ul class="tab" itemscope itemtype="http://schema.org/Blog">
+      {% for post in paginator.posts %}
+        <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+            <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+            <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+            <span class="preview__more">Read More</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
 
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}">Previous</a>
-          {% endif %}
+    <ul class="tab">
+      {% for post in paginator.posts %}
+        <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+            <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+          </a>
+        </li>
+      {% endfor %}      
+    </ul>
 
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}">Next</a>
-          {% endif %}
-        </div>
-      {% endif %}
-    </div>
+    {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}">Previous</a>
+        {% endif %}
 
-  </section>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}">Next</a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
 
-</main>
+</section>
