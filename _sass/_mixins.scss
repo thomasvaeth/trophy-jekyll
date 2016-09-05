@@ -23,19 +23,20 @@
 }
 
 /**
- * Button Slide from left and back
+ * Button Slide
  * Need to still add hover state in parent element
+ * box-shadow: inset 175px 0 0 0 $color-alpha;
+ * color: $color-white;
  */
-@mixin button-slide($pad: 0.5em) {
+@mixin button-slide($pad: 0.5em, $border: 3px) {
   @extend %letter-spacing;
 
   display: inline-block;
   padding: $pad;
 
   font-family: $font-header;
-  text-transform: uppercase;
   color: $color-alpha;
-  border: 3px solid $color-alpha;
+  border: $border solid $color-alpha;
   box-shadow: inset 0 0 0 0 $color-alpha;
   transition: all 0.4s ease-in-out;
 }
@@ -79,4 +80,12 @@
       }
     }
   }
+}
+
+
+/**
+ * Box Shadow
+ */
+@mixin box-shadow($size, $color: $color-black) {
+  box-shadow: 0 $size $size * 2 rgba($color, 0.1), 0 $size $size * 2 rgba($color, 0.2);
 }

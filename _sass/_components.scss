@@ -10,7 +10,6 @@
   padding: 1em;
 
   font-family: $font-header;
-  text-transform: uppercase;
 
   @media (min-width: $mq-md) {
     padding-left: 8em;
@@ -109,14 +108,37 @@
 .card {
 
   &__link {
+    @include box-shadow(1px);
+
+    position: relative;
+
     display: block;
 
     background-color: $color-white;
-    box-shadow: 0 1px 3px rgba($color-black, 0.1), 0 1px 2px rgba($color-black, 0.2);
     transition: background-color 0.2s ease-in-out;
+
+    &:after {
+      @include box-shadow(3px);
+
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      height: 100%;
+      width: 100%;
+
+      opacity: 0;
+      will-change: opacity;
+      transition: opacity 0.4s ease-in-out;
+    }
 
     &:hover {
       background-color: $color-alpha--light;
+
+      &:after {
+        opacity: 1;
+      }
       
       .card__more {
         box-shadow: inset 175px 0 0 0 $color-alpha;
@@ -161,15 +183,10 @@
 .pagination {
   @extend %letter-spacing;
 
-  // position: absolute;
-  // left: 0;
-  // bottom: 0;
-
   display: flex;
   width: 100%;
 
   font-family: $font-header;
-  text-transform: uppercase;
 
   & > * {
     display: flex;
@@ -177,9 +194,7 @@
     flex: 1;
 
     padding: 2em 0;
-  }
 
-  a {
     color: $color-white;
     background-color: $color-black;
 
@@ -189,6 +204,26 @@
       background-color: $color-alpha;
     }
   }
+}
+
+.pagination--archive {
+  @extend %letter-spacing;
+
+  width: 100%;
+
+  font-family: $font-header;
+
+  & > * {
+    @include button-slide(2em 0, 5px);
+
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+      box-shadow: inset 0 175px 0 0 $color-alpha;
+      color: $color-white;
+    }
+  } 
 }
 
 /**

@@ -55,8 +55,6 @@ section {
     }
 
     &:last-child {
-      // position: relative;
-
       min-height: 100vh;
 
       background-color: $color-grey;
@@ -66,4 +64,16 @@ section {
       }
     }
   }
+}
+
+/**
+ * Archive page
+ */
+.archives {
+  @include flex-grid(1, 2, 3, $xxl: 4, $pad: 0.25em);
+
+  max-width: $mq-xl;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
