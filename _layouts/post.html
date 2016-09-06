@@ -15,6 +15,20 @@ layout: default
     {{ content }}
   </section>
 
+  <section class="profile">
+    <div class="profile__card">
+      <div class="profile__img">
+        <figure class="absolute-bg" style="background-image: url('https://unsplash.it/2000/1200?image=832');"></figure>
+      </div>
+      <div class="profile__container">
+        <p class="profile__description">{{ site.profile }}</p>
+        <!-- <ul class="profile__social">
+          <li><i class="fa fa-lg fa-facebook"></i></li>
+        </ul> -->
+      </div>
+    </div>
+  </section>
+
 </article>
 
 {% if page.previous.url %}

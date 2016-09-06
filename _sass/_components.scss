@@ -271,8 +271,72 @@
 }
 
 /**
+ * Profile Card
+ */
+.profile {
+  width: 90%;
+  max-width: $mq-md;
+  margin: 0 auto;
+  padding-bottom: 2em;
+
+  @media (min-width: $mq-md) {
+    width: 50%;
+  }
+
+  &__card {
+    @include box-shadow(1px);
+
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $mq-md) {
+      flex-direction: row;
+    }
+  }
+
+  &__img {
+    position: relative;
+
+    min-height: 15em;
+
+    background-color: $color-black;
+
+    @media (min-width: $mq-md) {
+      flex-basis: 45%;
+      max-width: 45%;
+    }
+
+    &:after {
+      @extend %overlay;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+
+    background-color: $color-white;
+
+    @media (min-width: $mq-md) {
+      flex-basis: 55%;
+      max-width: 55%;
+    }
+  }
+
+  &__description {
+
+  }
+
+  &__social {
+
+  }
+}
+
+/**
  * Next Post
- * One the Post page for single post pagination
+ * On the Post page for single post pagination
  */
 .next {
   background-color: $color-black;
@@ -301,5 +365,34 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+  }
+}
+
+/**
+ * Archives Page
+ * Should be layout, but more elements added
+ */
+.archives {
+
+  &__header {
+    @extend %letter-spacing;
+
+    padding: 1em;
+
+    font-family: $font-header;
+    text-align: center;
+
+    span {
+      border-bottom: 3px solid $color-alpha;
+    }
+  }
+
+  &__container {
+    @include flex-grid(1, 2, 3, $xxl: 4, $pad: 0.25em);
+
+    max-width: $mq-xl;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
