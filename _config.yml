@@ -1,8 +1,8 @@
 # Site settings
 headline: A Jekyll Blog Theme
 email: thomas.vaeth@gmail.com
-baseurl: ""
-paginate: 10
+baseurl: "/trophy"
+paginate: 5
 paginate_path: "/blog/page-:num"
 
 # SEO
