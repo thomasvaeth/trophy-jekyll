@@ -7,6 +7,8 @@ baseurl: ""
 url: ""
 twitter:
   username: thomasvaeth
+facebook:
+  publisher: 10100553686230587
 paginate: 10
 paginate_path: "/blog/page-:num"
 
@@ -31,4 +33,4 @@ sass:
   style: compressed
 
 # Gems
-gems: [jekyll-paginate, jekyll-seo-tag, octopress-autoprefixer]
+gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, octopress-autoprefixer]

@@ -28,6 +28,7 @@ $mq-xxl: 114em;
 
 body {
   font-family: $font-body;
+  font-feature-settings: 'liga' 0;
   font-size: 100%;
   line-height: 1.6;
 
@@ -62,12 +63,30 @@ h1, h2 {
   font-family: $font-header;
 }
 
+h1 {
+  $fontSize: 3em;
+
+  @media (min-width: $mq-md) {
+    font-size: $fontSize;
+  }
+
+  @media (min-width: $mq-xl) {
+    font-size: $fontSize + 0.5em;
+  }
+}
+
 p {
   margin: 0 0 0.75em;
 }
 
 a {
+  color: $color-black;
   text-decoration: none;
+  transition: color 0.4s ease-in-out;
+
+  &:hover {
+    color: $color-alpha;
+  }
 }
 
 figure {

@@ -247,7 +247,12 @@
   }
 
   &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     height: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -267,6 +272,10 @@
 
   p:first-child {
     font-size: 1.25em;
+  }
+
+  a {
+    border-bottom: 1px solid $color-alpha;
   }
 }
 
@@ -329,21 +338,8 @@
     display: flex;
     justify-content: flex-end;
 
-    & > * {
+    & > *:not(:last-child) {
       margin-right: 1em;
-
-      &:last-child {
-        margin-right: 0;
-      }
-
-      & > * {
-        color: $color-black;
-        transition: color 0.4s ease-in-out;
-
-        &:hover {
-          color: $color-alpha;
-        }
-      }
     }
   }
 }
