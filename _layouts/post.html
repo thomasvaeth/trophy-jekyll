@@ -36,7 +36,7 @@ layout: default
 
 {% if page.previous.url %}
   <section class="next">
-    <a class="next__link" href="{{page.previous.url}}" style="background-image: url('{{ page.previous.image }}');">
+    <a class="next__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ page.previous.image }}');">
       <div class="next__container">
         <h2>{{page.previous.title}}</h2>
       </div>
