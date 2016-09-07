@@ -18,13 +18,16 @@ layout: default
   <section class="profile">
     <div class="profile__card">
       <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('https://unsplash.it/2000/1200?image=832');"></figure>
+        <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
       </div>
       <div class="profile__container">
-        <p class="profile__description">{{ site.profile }}</p>
-        <!-- <ul class="profile__social">
-          <li><i class="fa fa-lg fa-facebook"></i></li>
-        </ul> -->
+        <p>{{ site.profile }}</p>
+        <ul class="profile__social">
+          <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
+          {% for social in site.social %}
+            <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}"></a></li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </section>

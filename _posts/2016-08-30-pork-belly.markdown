@@ -5,6 +5,7 @@ date: 2016-08-30
 category: 
   - Brunch
 image: https://unsplash.it/2000/1200?image=685
+image-sm: https://unsplash.it/500/300?image=685
 ---
 Gochujang keytar vinyl fanny pack viral. Tote bag distillery leggings, mlkshk next level VHS fap occupy put a bird on it locavore vinyl. Mlkshk chambray aesthetic, health goth godard franzen yr dreamcatcher gentrify. Godard normcore sustainable, bushwick yr church-key vinyl. Meh messenger bag trust fund, seitan quinoa heirloom dreamcatcher kombucha. Hashtag freegan literally, leggings biodiesel meditation migas. Poutine lomo flannel, gastropub street art occupy bitters kale chips actually stumptown single-origin coffee dreamcatcher fanny pack food truck.
 

@@ -5,6 +5,7 @@ date: 2016-09-04
 categories: 
   - Brunch
 image: https://unsplash.it/2000/1200?image=1074
+image-sm: https://unsplash.it/500/300?image=1074
 ---
 Flexitarian fixie keytar vice craft beer. Forage normcore cred austin brunch, put a bird on it actually. Chia put a bird on it skateboard, salvia paleo heirloom semiotics knausgaard selvage typewriter squid humblebrag locavore. Fap etsy actually PBR&B, franzen sriracha scenester. 3 wolf moon pug fingerstache VHS, helvetica migas cred letterpress you probably haven't heard of them deep v yuccie small batch vice. Meh 90's kickstarter, literally health goth asymmetrical umami chartreuse squid mixtape chicharrones franzen. Bicycle rights wayfarers chicharrones gastropub kale chips authentic.
 

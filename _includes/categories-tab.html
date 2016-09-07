@@ -6,7 +6,11 @@
         <a class="card__link" href="{{ site.baseurl }}/category/{{ category | first | downcase }}/">
           {% for post in site.categories[cat_name] limit: 1 %}
             <div class="card__img">
-              <figure class="absolute-bg" style="background-image: url('{{ post.image }}');"></figure>
+              {% if post.image-sm %}
+                <figure class="absolute-bg" style="background-image: url('{{ post.image-sm }}');"></figure>
+              {% else %}
+                <figure class="absolute-bg" style="background-image: url('{{ post.image }}');"></figure>
+              {% endif %}
             </div>
           {% endfor %}
           <div class="card__container">

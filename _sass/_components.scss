@@ -277,10 +277,10 @@
   width: 90%;
   max-width: $mq-md;
   margin: 0 auto;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 
-  @media (min-width: $mq-md) {
-    width: 50%;
+  @media (min-width: $mq-lg) {
+    width: 55%;
   }
 
   &__card {
@@ -325,12 +325,26 @@
     }
   }
 
-  &__description {
-
-  }
-
   &__social {
+    display: flex;
+    justify-content: flex-end;
 
+    & > * {
+      margin-right: 1em;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      & > * {
+        color: $color-black;
+        transition: color 0.4s ease-in-out;
+
+        &:hover {
+          color: $color-alpha;
+        }
+      }
+    }
   }
 }
 

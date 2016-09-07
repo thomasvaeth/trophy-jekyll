@@ -4,6 +4,7 @@ title: "VHS Selfies"
 date: 2016-09-04
 categories: 
 image: https://unsplash.it/2000/1200?image=40
+image-sm: https://unsplash.it/500/300?image=40
 ---
 8-bit typewriter scenester, crucifix tousled tilde leggings brunch chicharrones salvia deep v man bun. Master cleanse man braid disrupt banjo, deep v cray tumblr cronut. Truffaut street art everyday carry DIY. Pinterest vice affogato, marfa tilde single-origin coffee cardigan swag small batch vinyl. Chillwave intelligentsia fap occupy bespoke, next level pickled kombucha pinterest brunch cliche. Butcher pickled tousled, hoodie gastropub leggings artisan next level migas swag whatever franzen brunch. Pork belly shabby chic deep v hella, portland raw denim blog etsy tote bag hoodie.
 
