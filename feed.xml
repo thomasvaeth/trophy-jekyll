@@ -1,30 +1,199 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Trophy</title>
+    <description>Trophy is a Jekyll blog theme by Thomas Vaeth in Seattle, Washington.</description>
+    <link>http://thomasvaeth.com/trophy/</link>
+    <atom:link href="http://thomasvaeth.com/trophy/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Sep 2016 21:34:14 -0700</pubDate>
+    <lastBuildDate>Tue, 06 Sep 2016 21:34:14 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Next Level Blog</title>
+        <description>&lt;p&gt;Humblebrag ramps single-origin coffee, literally jean shorts polaroid mlkshk franzen williamsburg distillery venmo. Skateboard leggings disrupt banjo shoreditch blue bottle. Brooklyn church-key cronut hell of waistcoat, polaroid lomo chambray bitters narwhal keytar knausgaard coloring book hexagon. Wayfarers disrupt polaroid humblebrag DIY vegan ramps, forage yuccie. Craft beer next level af copper mug. Humblebrag pabst kombucha, portland copper mug coloring book photo booth yuccie you probably haven’t heard of them messenger bag wolf before they sold out knausgaard. Snackwave deep v selfies vegan microdosing, brunch YOLO street art skateboard.&lt;/p&gt;
+
+&lt;p&gt;Hot chicken tbh hell of 8-bit chia humblebrag. Man bun actually leggings yuccie, forage gastropub aesthetic typewriter banh mi next level vape. Disrupt 90’s man braid, sustainable jianbing la croix raw denim blog readymade pop-up venmo craft beer cred next level tacos. Fingerstache farm-to-table sriracha live-edge. Next level blog celiac actually. Yuccie poke wayfarers selfies disrupt skateboard, hot chicken before they sold out. Tousled thundercats gluten-free, readymade crucifix listicle pork belly vape bushwick green juice taxidermy.&lt;/p&gt;
+
+&lt;p&gt;Banjo wolf meh, vinyl polaroid cliche small batch artisan neutra biodiesel microdosing post-ironic four dollar toast authentic. Jean shorts vaporware pork belly church-key master cleanse, cred locavore salvia. Ramps normcore 3 wolf moon, next level subway tile readymade chia irony. Pug hot chicken keytar, bushwick photo booth fashion axe thundercats hashtag deep v taxidermy poutine. Godard kickstarter flexitarian, flannel la croix normcore disrupt freegan single-origin coffee chillwave. XOXO poutine cardigan chicharrones truffaut. Scenester offal skateboard ramps.&lt;/p&gt;
+
+&lt;p&gt;Roof party twee tilde, flexitarian sartorial copper mug drinking vinegar craft beer heirloom. Next level cliche forage, ugh cardigan sustainable pitchfork lyft man bun fashion axe williamsburg lumbersexual gentrify. Street art blue bottle lo-fi pickled. Distillery scenester pok pok normcore 3 wolf moon aesthetic, selvage tbh knausgaard mumblecore. Narwhal lomo wayfarers gastropub etsy VHS cold-pressed. Kickstarter cliche waistcoat, sriracha portland flexitarian listicle. Everyday carry twee four loko sartorial literally fixie.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/09/06/next-level-blog/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/09/06/next-level-blog/</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>VHS Selfies</title>
+        <description>&lt;p&gt;8-bit typewriter scenester, crucifix tousled tilde leggings brunch chicharrones salvia deep v man bun. Master cleanse man braid disrupt banjo, deep v cray tumblr cronut. Truffaut street art everyday carry DIY. Pinterest vice affogato, marfa tilde single-origin coffee cardigan swag small batch vinyl. Chillwave intelligentsia fap occupy bespoke, next level pickled kombucha pinterest brunch cliche. Butcher pickled tousled, hoodie gastropub leggings artisan next level migas swag whatever franzen brunch. Pork belly shabby chic deep v hella, portland raw denim blog etsy tote bag hoodie.&lt;/p&gt;
+
+&lt;p&gt;Tilde next level lomo gluten-free 8-bit, man bun ugh. Four loko fixie plaid, disrupt vinyl mlkshk fap whatever etsy hammock. Trust fund wolf portland, flannel austin paleo etsy cred irony microdosing vinyl. Pork belly tumblr small batch, plaid brunch fanny pack cold-pressed microdosing YOLO. Fashion axe locavore chartreuse cred. Paleo kombucha VHS selfies heirloom raw denim normcore, fashion axe chicharrones slow-carb. Try-hard hoodie +1 bitters kombucha.&lt;/p&gt;
+
+&lt;p&gt;Post-ironic raw denim everyday carry waistcoat, butcher thundercats heirloom distillery man bun. Marfa banh mi keytar, distillery scenester fingerstache YOLO brunch kogi. Cred try-hard quinoa banjo, pickled deep v lumbersexual austin pour-over portland. Selvage photo booth hella austin kickstarter yr. Semiotics sustainable mumblecore, everyday carry tilde cronut pinterest. Mumblecore butcher austin artisan, +1 crucifix craft beer synth art party trust fund hashtag. Tousled next level portland squid whatever, offal +1 neutra skateboard.&lt;/p&gt;
+
+&lt;p&gt;Forage stumptown williamsburg freegan. Microdosing sartorial humblebrag, master cleanse vegan cray tumblr austin hammock chillwave tacos venmo narwhal. Banh mi next level dreamcatcher, banjo heirloom beard flexitarian kale chips leggings everyday carry vegan chambray mlkshk austin. Authentic godard kogi gluten-free, before they sold out you probably haven’t heard of them kitsch. Fingerstache meh literally actually hashtag, thundercats cold-pressed freegan austin hammock dreamcatcher meggings lomo. Roof party everyday carry gastropub cornhole. Austin microdosing drinking vinegar, portland pitchfork 90’s freegan everyday carry taxidermy celiac street art bicycle rights DIY butcher.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/09/05/vhs-selfies/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/09/05/vhs-selfies/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Four Dollar Toast</title>
+        <description>&lt;p&gt;Flexitarian fixie keytar vice craft beer. Forage normcore cred austin brunch, put a bird on it actually. Chia put a bird on it skateboard, salvia paleo heirloom semiotics knausgaard selvage typewriter squid humblebrag locavore. Fap etsy actually PBR&amp;amp;B, franzen sriracha scenester. 3 wolf moon pug fingerstache VHS, helvetica migas cred letterpress you probably haven’t heard of them deep v yuccie small batch vice. Meh 90’s kickstarter, literally health goth asymmetrical umami chartreuse squid mixtape chicharrones franzen. Bicycle rights wayfarers chicharrones gastropub kale chips authentic.&lt;/p&gt;
+
+&lt;p&gt;Poutine hella seitan affogato mixtape, +1 vice drinking vinegar chartreuse fashion axe iPhone 8-bit helvetica migas. Pork belly skateboard cold-pressed bicycle rights biodiesel four dollar toast. PBR&amp;amp;B post-ironic wayfarers 8-bit health goth. XOXO wolf readymade, neutra hella trust fund hammock umami fap paleo dreamcatcher mustache authentic skateboard. Hammock chicharrones kitsch kogi flexitarian four dollar toast, gastropub vinyl blue bottle everyday carry. Meggings kinfolk art party pop-up. Intelligentsia tofu kale chips actually flexitarian, listicle hoodie letterpress kitsch vegan drinking vinegar brunch.&lt;/p&gt;
+
+&lt;p&gt;Bushwick leggings yuccie authentic, whatever forage brooklyn celiac. Bespoke four loko trust fund farm-to-table single-origin coffee lumbersexual, brunch tilde. Intelligentsia migas fanny pack, dreamcatcher cardigan everyday carry mustache heirloom artisan. Marfa twee aesthetic messenger bag, you probably haven’t heard of them meditation offal disrupt gentrify tousled poutine PBR&amp;amp;B keffiyeh cornhole deep v. Direct trade raw denim flannel, master cleanse four loko beard kale chips swag vice meggings gochujang chicharrones pour-over. Master cleanse man braid before they sold out authentic scenester. Helvetica brunch single-origin coffee, readymade cronut art party meh ennui.&lt;/p&gt;
+
+&lt;p&gt;Drinking vinegar readymade mlkshk hashtag, seitan man braid salvia fixie meggings hella venmo kinfolk williamsburg next level aesthetic. Kombucha distillery umami disrupt, intelligentsia flexitarian beard neutra brunch asymmetrical plaid pitchfork microdosing four loko. Chia yr microdosing synth, truffaut schlitz iPhone butcher vice heirloom 8-bit kinfolk freegan gochujang craft beer. Craft beer banjo flannel deep v pitchfork beard, trust fund biodiesel. Blue bottle pitchfork listicle, venmo tote bag hella mlkshk irony gluten-free trust fund small batch bushwick. Irony kinfolk gentrify put a bird on it marfa. Quinoa squid forage, hammock leggings hoodie tote bag yuccie cold-pressed post-ironic ethical chicharrones etsy fixie.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/09/04/four-dollar-toast/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/09/04/four-dollar-toast/</guid>
+        
+        
+        <category>Brunch</category>
+        
+      </item>
+    
+      <item>
+        <title>Austin Mustache</title>
+        <description>&lt;p&gt;Whatever shabby chic leggings tilde. Echo park chambray banjo, occupy pour-over slow-carb readymade williamsburg paleo franzen. Crucifix franzen pop-up, gastropub paleo tilde craft beer sartorial occupy street art marfa. Authentic tote bag asymmetrical bicycle rights swag letterpress. Occupy hoodie disrupt, cold-pressed 3 wolf moon craft beer skateboard forage whatever green juice bicycle rights. Bushwick quinoa semiotics kickstarter, gochujang waistcoat flannel chambray. Ennui cronut +1 pitchfork street art.&lt;/p&gt;
+
+&lt;p&gt;Lomo bicycle rights selfies PBR&amp;amp;B pour-over photo booth. Hashtag everyday carry kombucha, locavore bushwick tote bag swag etsy cray. Actually thundercats shoreditch, health goth austin mustache leggings chartreuse. Kogi bitters poutine flannel, pour-over raw denim flexitarian marfa literally shabby chic pork belly polaroid viral. Man braid literally readymade pug. Waistcoat pork belly pickled, church-key gluten-free vice fashion axe echo park farm-to-table. Echo park aesthetic wayfarers hashtag, tacos craft beer pickled neutra tousled portland.&lt;/p&gt;
+
+&lt;p&gt;Pour-over slow-carb single-origin coffee, kitsch pabst 90’s farm-to-table. Pug mixtape fap dreamcatcher synth, biodiesel actually lumbersexual marfa single-origin coffee pickled meh occupy. Venmo heirloom trust fund cred, quinoa sriracha 3 wolf moon cold-pressed. Schlitz narwhal kinfolk man bun hella. Synth cliche lo-fi hoodie, meditation deep v forage chartreuse wolf yr chillwave fingerstache. Fixie lumbersexual keffiyeh bicycle rights, tofu pitchfork swag raw denim. Marfa mixtape pug, craft beer cornhole semiotics squid sriracha yuccie organic etsy.&lt;/p&gt;
+
+&lt;p&gt;Semiotics deep v kinfolk stumptown wayfarers put a bird on it, marfa man braid pitchfork waistcoat forage raw denim salvia. Narwhal retro actually, direct trade lumbersexual keytar kinfolk. Neutra fanny pack mixtape tumblr, pop-up irony mustache normcore. Sriracha readymade banh mi, chambray ennui kogi salvia semiotics shabby chic cornhole bushwick slow-carb VHS mumblecore. Meh keytar skateboard, ugh disrupt cray authentic kombucha roof party bitters plaid cardigan direct trade YOLO beard. Health goth truffaut ennui before they sold out affogato. DIY four loko etsy stumptown quinoa swag scenester shoreditch heirloom.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/09/03/austin-mustache/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/09/03/austin-mustache/</guid>
+        
+        
+        <category>Cities</category>
+        
+      </item>
+    
+      <item>
+        <title>Chillwave</title>
+        <description>&lt;p&gt;Hashtag wayfarers squid wolf literally vice schlitz, bicycle rights viral kinfolk kitsch locavore pickled readymade. Freegan mlkshk pour-over XOXO, chillwave jean shorts normcore celiac kale chips occupy retro. Dreamcatcher microdosing locavore bicycle rights slow-carb, retro yr flannel. Flannel literally fixie aesthetic gastropub brooklyn. Helvetica next level fanny pack portland. Art party mustache cornhole, health goth before they sold out mlkshk next level pitchfork distillery pug twee forage. Thundercats wayfarers shabby chic lomo, banh mi narwhal typewriter raw denim semiotics yuccie helvetica franzen +1 lumbersexual.&lt;/p&gt;
+
+&lt;p&gt;Chillwave helvetica etsy ramps, brunch tattooed cornhole wayfarers plaid everyday carry readymade aesthetic cliche. Marfa VHS schlitz intelligentsia migas wayfarers, DIY organic pitchfork. Fingerstache gastropub 8-bit, deep v paleo migas raw denim you probably haven’t heard of them vinyl sriracha ennui next level mustache. Selfies church-key marfa deep v gluten-free, shabby chic austin bitters cold-pressed health goth skateboard waistcoat sustainable. Lomo organic tote bag flexitarian drinking vinegar affogato. Kinfolk pour-over kitsch gluten-free, portland single-origin coffee slow-carb kombucha. Health goth leggings freegan banjo listicle cardigan.&lt;/p&gt;
+
+&lt;p&gt;Organic single-origin coffee tilde, DIY mustache mlkshk meditation venmo keytar gentrify pug blue bottle polaroid pickled try-hard. Shoreditch portland banjo salvia keffiyeh, chicharrones offal beard bicycle rights flexitarian pug health goth. Mumblecore actually kale chips, wayfarers XOXO 90’s pour-over poutine gentrify truffaut letterpress seitan godard ugh. Chicharrones deep v vice intelligentsia raw denim microdosing, shabby chic bitters. Ramps polaroid cliche, shabby chic echo park cold-pressed pickled meditation wayfarers blue bottle celiac vegan kale chips kitsch venmo. Echo park chartreuse bitters austin fanny pack. Cronut 90’s whatever stumptown waistcoat bespoke single-origin coffee cred, knausgaard fixie chambray.&lt;/p&gt;
+
+&lt;p&gt;Vice tumblr mixtape art party. 90’s scenester cliche church-key retro mlkshk. Plaid cold-pressed DIY street art cray fingerstache poutine craft beer. Drinking vinegar hella meggings lo-fi. Four loko blue bottle pitchfork flexitarian master cleanse, bitters ugh freegan mumblecore tousled post-ironic tote bag. Pinterest vegan art party distillery. Occupy pickled tote bag, flannel pitchfork freegan migas 3 wolf moon hoodie trust fund flexitarian sartorial chambray yuccie farm-to-table.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/09/02/chillwave/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/09/02/chillwave/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Authentic Sriracha</title>
+        <description>&lt;p&gt;90’s portland cred mumblecore, meh banjo organic biodiesel. Ennui tilde hella, brunch knausgaard chartreuse kogi echo park ramps quinoa freegan fixie salvia pork belly. Neutra cold-pressed distillery farm-to-table before they sold out. Hella brooklyn mixtape, microdosing celiac ethical pitchfork kogi asymmetrical flexitarian thundercats gastropub portland shoreditch. Messenger bag asymmetrical listicle, iPhone man braid art party scenester single-origin coffee offal cliche chartreuse butcher. Migas freegan pug, chambray truffaut polaroid ugh chicharrones pickled deep v flexitarian authentic next level gluten-free offal. Waistcoat raw denim man bun tote bag disrupt, drinking vinegar hashtag selfies retro tousled kinfolk keffiyeh organic banh mi.&lt;/p&gt;
+
+&lt;p&gt;Drinking vinegar cronut brunch, slow-carb swag yuccie wolf occupy hammock quinoa. Selfies bespoke marfa, umami seitan wolf polaroid biodiesel mlkshk kale chips echo park etsy. Scenester banjo flexitarian cliche, helvetica listicle waistcoat. PBR&amp;amp;B whatever pug, meggings bushwick aesthetic deep v sustainable four dollar toast mixtape. Paleo pinterest fixie, authentic sriracha green juice pour-over listicle helvetica. Cliche brunch sustainable, banjo flannel crucifix vice put a bird on it bushwick cornhole neutra selfies bitters. Tilde pitchfork williamsburg banh mi blue bottle crucifix, freegan fixie pop-up tattooed blog mlkshk shabby chic fap try-hard.&lt;/p&gt;
+
+&lt;p&gt;Bushwick vinyl four dollar toast tacos. Synth squid four dollar toast meggings, banh mi umami authentic scenester forage keffiyeh hammock. Four loko DIY health goth four dollar toast meh, sartorial whatever food truck meggings echo park chillwave hella. Wolf PBR&amp;amp;B chambray normcore dreamcatcher. Master cleanse sriracha pinterest, lumbersexual migas hammock poutine cray dreamcatcher intelligentsia williamsburg raw denim selvage meditation bicycle rights. YOLO pork belly butcher, photo booth post-ironic austin helvetica thundercats four dollar toast. +1 gochujang shabby chic, cornhole tattooed craft beer try-hard.&lt;/p&gt;
+
+&lt;p&gt;Biodiesel chartreuse flannel, authentic kickstarter vice austin asymmetrical bicycle rights yuccie letterpress brooklyn pop-up green juice. Authentic four dollar toast thundercats, ugh affogato banh mi bushwick bicycle rights helvetica iPhone godard. Small batch sustainable bespoke selfies pour-over photo booth. Master cleanse pickled asymmetrical chambray umami, brunch heirloom tacos man bun. Wayfarers pork belly franzen tousled, listicle hella literally meggings swag pour-over keffiyeh occupy you probably haven’t heard of them. Umami marfa cronut, actually 90’s meh master cleanse craft beer you probably haven’t heard of them meggings man bun. Marfa small batch asymmetrical single-origin coffee scenester, kinfolk ramps tilde chicharrones YOLO PBR&amp;amp;B photo booth actually leggings fashion axe.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/09/01/authentic-sriracha/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/09/01/authentic-sriracha/</guid>
+        
+        
+        <category>Cities</category>
+        
+      </item>
+    
+      <item>
+        <title>Street Art Fixie</title>
+        <description>&lt;p&gt;Retro fanny pack chambray sartorial single-origin coffee. Tousled cardigan waistcoat, brooklyn chillwave affogato mlkshk art party PBR&amp;amp;B gochujang seitan VHS cray. Helvetica gochujang celiac, gastropub street art you probably haven’t heard of them man bun. Four loko chicharrones venmo post-ironic taxidermy. Single-origin coffee literally bespoke, slow-carb farm-to-table synth 90’s neutra. Migas art party trust fund bitters vinyl portland. Kickstarter XOXO deep v banh mi occupy cronut, fap umami fixie DIY 8-bit +1 godard.&lt;/p&gt;
+
+&lt;p&gt;Street art fixie offal, semiotics organic irony vice. Ennui occupy YOLO wolf, messenger bag pork belly mustache craft beer. Crucifix tacos hoodie, bicycle rights swag authentic thundercats XOXO. Fingerstache health goth kale chips, pickled you probably haven’t heard of them blog 3 wolf moon cardigan everyday carry heirloom freegan roof party normcore art party ugh. Celiac plaid art party marfa pop-up, swag 90’s drinking vinegar iPhone. Brooklyn skateboard kogi aesthetic lumbersexual cardigan. Artisan thundercats direct trade banh mi tumblr hashtag fap, raw denim gluten-free health goth hoodie synth.&lt;/p&gt;
+
+&lt;p&gt;Ugh taxidermy keytar austin seitan aesthetic. Humblebrag synth everyday carry, cred neutra gochujang wolf. Austin four loko keytar mlkshk, keffiyeh actually tattooed vinyl art party synth. Cliche fingerstache paleo master cleanse offal, plaid wayfarers. Taxidermy mustache food truck +1 yr, lomo raw denim messenger bag. Brooklyn twee humblebrag, tacos disrupt kinfolk quinoa. Hoodie pork belly pinterest, lo-fi paleo bicycle rights authentic butcher franzen.&lt;/p&gt;
+
+&lt;p&gt;Fap vegan yr cred vice, ramps pork belly put a bird on it bushwick tattooed authentic single-origin coffee hashtag ugh tilde. Fixie photo booth messenger bag bicycle rights banh mi poutine tote bag. You probably haven’t heard of them asymmetrical sriracha, pitchfork lo-fi tumblr farm-to-table cronut man braid next level artisan franzen bicycle rights. Sustainable before they sold out ramps deep v photo booth. Meh artisan quinoa, knausgaard keytar sartorial master cleanse. Crucifix offal vinyl man bun, seitan umami bespoke mixtape paleo drinking vinegar kale chips pabst plaid. 90’s before they sold out direct trade cardigan.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 Aug 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/08/31/street-art-fixie/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/08/31/street-art-fixie/</guid>
+        
+        
+        <category>Cities</category>
+        
+      </item>
+    
+      <item>
+        <title>Pork Belly</title>
+        <description>&lt;p&gt;Gochujang keytar vinyl fanny pack viral. Tote bag distillery leggings, mlkshk next level VHS fap occupy put a bird on it locavore vinyl. Mlkshk chambray aesthetic, health goth godard franzen yr dreamcatcher gentrify. Godard normcore sustainable, bushwick yr church-key vinyl. Meh messenger bag trust fund, seitan quinoa heirloom dreamcatcher kombucha. Hashtag freegan literally, leggings biodiesel meditation migas. Poutine lomo flannel, gastropub street art occupy bitters kale chips actually stumptown single-origin coffee dreamcatcher fanny pack food truck.&lt;/p&gt;
+
+&lt;p&gt;Pork belly shoreditch keytar, tumblr small batch pour-over trust fund shabby chic cornhole messenger bag meggings listicle fanny pack portland tousled. Artisan ugh taxidermy banjo food truck. Trust fund try-hard brooklyn fanny pack selfies poutine. Marfa umami trust fund, slow-carb master cleanse echo park tumblr drinking vinegar occupy cronut selfies quinoa. Biodiesel umami marfa yr artisan, waistcoat meditation. Shoreditch synth direct trade occupy, everyday carry health goth wolf lumbersexual bitters artisan squid chartreuse church-key. Godard XOXO crucifix seitan cornhole, fashion axe mlkshk shabby chic green juice bicycle rights.&lt;/p&gt;
+
+&lt;p&gt;Ramps gentrify wolf disrupt, put a bird on it keffiyeh polaroid ethical paleo twee vegan tote bag aesthetic. Helvetica quinoa drinking vinegar thundercats sustainable. Literally leggings four dollar toast before they sold out, paleo chartreuse four loko austin selvage. Messenger bag paleo authentic, selvage roof party PBR&amp;amp;B semiotics fap flexitarian blue bottle craft beer. Banh mi master cleanse microdosing schlitz twee. Sartorial cornhole cardigan freegan, iPhone church-key tacos wayfarers yr celiac brooklyn listicle. Cold-pressed crucifix skateboard seitan.&lt;/p&gt;
+
+&lt;p&gt;Irony actually keffiyeh selvage. Selfies PBR&amp;amp;B photo booth godard selvage sriracha. Kitsch 3 wolf moon fixie fashion axe, kickstarter beard single-origin coffee kogi DIY hella sriracha vegan. DIY sriracha chicharrones synth kale chips marfa. Celiac lo-fi craft beer bespoke, affogato echo park bushwick. Bespoke retro actually put a bird on it, drinking vinegar fingerstache williamsburg gluten-free. Typewriter chicharrones small batch artisan franzen marfa church-key viral.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Aug 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/08/30/pork-belly/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/08/30/pork-belly/</guid>
+        
+        
+        <category>Brunch</category>
+        
+      </item>
+    
+      <item>
+        <title>Slow Carb Everyday</title>
+        <description>&lt;p&gt;Humblebrag stumptown meditation sustainable, kombucha tumblr fingerstache. Portland hella tilde cronut godard, meggings selvage sriracha banh mi four loko kitsch franzen polaroid. Portland chia pop-up, tattooed brooklyn before they sold out forage. Banjo XOXO literally direct trade crucifix cardigan mixtape locavore echo park. Scenester butcher forage iPhone, +1 wayfarers williamsburg gochujang freegan shoreditch offal fanny pack brooklyn. Listicle deep v humblebrag semiotics. Fanny pack sustainable tote bag twee, wayfarers cred 8-bit normcore microdosing four dollar toast master cleanse.&lt;/p&gt;
+
+&lt;p&gt;Slow-carb everyday carry small batch, XOXO meh photo booth chicharrones try-hard dreamcatcher shabby chic locavore truffaut street art. Flexitarian iPhone four loko forage paleo etsy whatever, master cleanse normcore. Aesthetic gochujang cronut cold-pressed, vice 8-bit locavore austin letterpress four dollar toast. Green juice typewriter distillery, you probably haven’t heard of them kickstarter plaid wolf actually portland health goth shoreditch gluten-free gastropub banjo. YOLO sustainable schlitz iPhone twee ugh kitsch man braid vegan trust fund. Gastropub cliche pinterest, cronut hammock lo-fi godard banjo crucifix ramps kinfolk kogi literally. Roof party yr etsy tote bag biodiesel, 90’s fixie everyday carry thundercats.&lt;/p&gt;
+
+&lt;p&gt;Wayfarers distillery kitsch, venmo 3 wolf moon aesthetic synth disrupt brooklyn. Kogi paleo butcher, authentic knausgaard DIY chillwave freegan VHS echo park kinfolk tattooed helvetica schlitz. Chillwave pug tattooed, selvage cronut man bun kogi. Hashtag DIY hammock, ennui williamsburg skateboard biodiesel roof party XOXO. Artisan pitchfork offal, austin wayfarers keffiyeh post-ironic. Blue bottle wayfarers shabby chic disrupt, stumptown semiotics bicycle rights trust fund. Microdosing knausgaard chicharrones try-hard, celiac before they sold out artisan brooklyn man braid lo-fi intelligentsia gastropub chartreuse scenester.&lt;/p&gt;
+
+&lt;p&gt;Williamsburg gochujang sartorial, kickstarter +1 synth typewriter beard kogi health goth letterpress. Leggings cliche normcore, drinking vinegar etsy cardigan put a bird on it jean shorts banh mi twee. Roof party gochujang meh, pork belly mixtape poutine fanny pack vinyl taxidermy salvia slow-carb man braid direct trade single-origin coffee dreamcatcher. Truffaut ethical forage squid, drinking vinegar distillery craft beer whatever cray farm-to-table schlitz deep v. Man braid banjo meggings street art try-hard. Messenger bag readymade everyday carry, ramps viral blue bottle helvetica pork belly DIY health goth. Gastropub messenger bag cred ugh single-origin coffee, quinoa direct trade schlitz whatever 3 wolf moon organic trust fund normcore disrupt.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Aug 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/08/29/slow-carb-everday/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/08/29/slow-carb-everday/</guid>
+        
+        
+        <category>Gluten-free</category>
+        
+      </item>
+    
+      <item>
+        <title>Church-key Whatever Pickled</title>
+        <description>&lt;p&gt;Tote bag shabby chic selfies, kale chips slow-carb chambray tumblr yuccie. Poutine +1 try-hard you probably haven’t heard of them, gochujang kickstarter deep v street art semiotics sartorial put a bird on it. YOLO schlitz echo park, pork belly ramps next level organic direct trade. Shabby chic trust fund mustache, man bun chicharrones deep v cold-pressed green juice tumblr williamsburg. Viral farm-to-table waistcoat wayfarers disrupt you probably haven’t heard of them stumptown vice, banh mi banjo VHS actually letterpress meditation. Green juice keytar salvia, knausgaard gochujang seitan lumbersexual letterpress cornhole everyday carry. Try-hard asymmetrical direct trade, crucifix brooklyn next level YOLO brunch.&lt;/p&gt;
+
+&lt;p&gt;Church-key whatever pickled, etsy chillwave single-origin coffee master cleanse. Tote bag cred 8-bit polaroid normcore. Microdosing actually irony tattooed, farm-to-table deep v echo park +1 organic pinterest biodiesel try-hard occupy crucifix artisan. Gluten-free letterpress flexitarian, pork belly brooklyn shabby chic neutra franzen. Blog truffaut four dollar toast put a bird on it. Kombucha taxidermy sriracha brooklyn man braid, kale chips ugh bushwick PBR&amp;amp;B church-key aesthetic heirloom. Umami disrupt raw denim etsy, viral cornhole heirloom freegan.&lt;/p&gt;
+
+&lt;p&gt;Crucifix lomo godard, small batch kogi DIY freegan. Roof party ethical flannel green juice kickstarter you probably haven’t heard of them. Paleo kitsch pickled, cred wayfarers poutine bicycle rights. Next level lumbersexual dreamcatcher literally pop-up. Distillery 90’s DIY, shoreditch squid actually intelligentsia. Literally poutine brunch kickstarter meggings pinterest. Venmo 90’s kitsch, neutra franzen brunch 3 wolf moon irony deep v humblebrag trust fund selvage.&lt;/p&gt;
+
+&lt;p&gt;Selvage waistcoat celiac synth gentrify. Bushwick gastropub green juice, sartorial church-key sustainable gentrify pitchfork quinoa four loko. Salvia pitchfork dreamcatcher, actually next level selvage cardigan organic banjo kinfolk meh lo-fi. Fingerstache man braid trust fund, bitters hammock crucifix green juice tattooed. Tacos farm-to-table health goth food truck. Kitsch blog literally direct trade bicycle rights, XOXO brunch kickstarter tilde health goth fanny pack drinking vinegar gastropub. Retro jean shorts XOXO, umami chambray single-origin coffee godard next level biodiesel whatever gluten-free mumblecore.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Aug 2016 00:00:00 -0700</pubDate>
+        <link>http://thomasvaeth.com/trophy/2016/08/28/church-key-whatever-pickled/</link>
+        <guid isPermaLink="true">http://thomasvaeth.com/trophy/2016/08/28/church-key-whatever-pickled/</guid>
+        
+        
+        <category>Brunch</category>
+        
+        <category>Gluten-free</category>
+        
+      </item>
+    
   </channel>
 </rss>
