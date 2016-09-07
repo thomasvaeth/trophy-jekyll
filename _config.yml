@@ -1,18 +1,19 @@
 # Site settings
-title: Trophy
 headline: A Jekyll Blog Theme
-description: Trophy is a Jekyll blog theme by Thomas Vaeth in Seattle, Washington.
 email: thomas.vaeth@gmail.com
 baseurl: ""
-url: ""
-twitter:
-  username: thomasvaeth
-facebook:
-  publisher: 10100553686230587
 paginate: 10
 paginate_path: "/blog/page-:num"
 
+# SEO
+title: Trophy
+description: Trophy is a Jekyll blog theme by Thomas Vaeth in Seattle, Washington.
+url: "http://thomasvaeth.com"
+twitter_username: thomasvaeth
+default_img: https://unsplash.it/2000/1200?image=1058
+
 # Profile settings
+name: Thomas Vaeth
 profile_img: https://unsplash.it/2000/1200?image=447
 profile: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a biochemist, but now he's a web developer at Urban Influence. He's also semi-decent at table tennis.
 social:
@@ -33,4 +34,4 @@ sass:
   style: compressed
 
 # Gems
-gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, octopress-autoprefixer]
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]

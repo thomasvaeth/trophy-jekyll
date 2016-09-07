@@ -5,6 +5,7 @@ date: 2016-08-28
 categories: 
   - Brunch 
   - Gluten-free
+description: 
 image: https://unsplash.it/2000/1200?image=674
 image-sm: https://unsplash.it/500/300?image=674
 ---

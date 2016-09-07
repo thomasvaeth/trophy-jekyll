@@ -3,6 +3,7 @@ layout: post
 title: "VHS Selfies"
 date: 2016-09-04
 categories: 
+description: 
 image: https://unsplash.it/2000/1200?image=40
 image-sm: https://unsplash.it/500/300?image=40
 ---
