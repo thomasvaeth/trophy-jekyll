@@ -13,6 +13,11 @@
     padding-left: 8em;
     padding-right: 8em;
   }
+
+  @media (min-width: $mq-xxl) {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
   
   &__item {
     cursor: pointer;
@@ -37,8 +42,29 @@
 
 /**
  * Blog Post Preview
- * On the Blog page on the right side
+ * On the Blog page
  */
+.previews {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+
+    color: $color-white;
+
+    span {
+      @extend %letter-spacing;
+
+      font-family: $font-body;
+    }
+  }
+}
+
 .preview {
   transition: background-color 0.2s ease-in-out;
   
@@ -66,6 +92,11 @@
 
     @media (min-width: $mq-md) {
       padding: 4em 8em;
+    }
+
+    @media (min-width: $mq-xxl) {
+      padding-left: 10em;
+      padding-right: 10em;
     }
   }
 
@@ -384,9 +415,16 @@
 
   &__container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+
+    span {
+      @extend %letter-spacing;
+
+      font-family: $font-body;
+    }
   }
 }
 

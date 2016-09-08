@@ -24,7 +24,7 @@ permalink: /archive/
             <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
               {{ post.date | date: "%b %-d, %Y" }}
               {% if post.categories.size > 0 %}
-                in {{ post.categories | first }}
+                in {{ post.categories | join: ', ' }}
               {% endif %}
             </p>
             <span class="card__more">Read Post</span>
