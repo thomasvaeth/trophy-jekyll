@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://thomasvaeth.com/trophy/2016/09/07/craft-beer/</loc>
+<lastmod>2016-09-07T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://thomasvaeth.com/trophy/2016/09/06/next-level-blog/</loc>
 <lastmod>2016-09-06T00:00:00-07:00</lastmod>
 </url>
@@ -47,9 +51,18 @@
 <loc>http://thomasvaeth.com/trophy/category/brunch/</loc>
 </url>
 <url>
+<loc>http://thomasvaeth.com/trophy/category/cities/</loc>
+</url>
+<url>
+<loc>http://thomasvaeth.com/trophy/category/gluten-free/</loc>
+</url>
+<url>
 <loc>http://thomasvaeth.com/trophy/</loc>
 </url>
 <url>
 <loc>http://thomasvaeth.com/trophy/blog/page-2/</loc>
+</url>
+<url>
+<loc>http://thomasvaeth.com/trophy/blog/page-3/</loc>
 </url>
 </urlset>
