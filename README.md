@@ -30,11 +30,13 @@ I made everything as easy as possible to edit. Most things can be found in the `
     baseurl: ""
     paginate: 5
     paginate_path: "/blog/page-:num"
+    google_analytics: UA—XXXXXXXX-X
 
 * ````email```` - Your email for the contact card and the footer
 * ````baseurl```` - Path of blog if adding this on to another website
 * ````paginate```` - Number of blog posts per page
 * ````paginate_path```` - URL structure of paginated pages
+* ````google_analytics```` - Option field to replace with correct Google Analytics code
 
 #### SEO Settings
     title: 
@@ -109,6 +111,7 @@ Jekyll does not have anything built in for categories, so I made making new cate
 ## Upcoming Additions
 * Page transitions
 * 404 page
+* More styled elements for blog posts
 
 ## Issues
 Please submit any issues [here](https://github.com/thomasvaeth/trophy/issues).
