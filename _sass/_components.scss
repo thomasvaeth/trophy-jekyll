@@ -241,13 +241,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1em;
   padding-left: 2em;
   padding-right: 2em;
 
   @media (min-width: $mq-sm) {
     flex-direction: row;
-    margin-bottom: 0;
   }
 
   &__archive {
@@ -258,6 +256,11 @@
 
   &__social {
     display: flex;
+    margin-top: 1em;
+
+    @media (min-width: $mq-sm) {
+      margin-top: 0;
+    }
 
     & > *:not(:last-child) {
       margin-right: 1em;
@@ -302,24 +305,40 @@
   @extend %letter-spacing;
 
   position: absolute;
-  top: 1em;
-  left: 2em;
+  top: 1.25em;
+  left: 1em;
   z-index: 99;
 
   display: flex;
   align-items: center;
 
   font-family: $font-body;
-  transition: left 0.4s ease-in-out;
 
-  &:hover,
-  &:active,
-  &:focus {
-    left: 1em;
+  @media (min-width: $mq-sm) {
+    left: 2em;
+
+    transition: left 0.4s ease-in-out;
+
+    &:hover,
+    &:active,
+    &:focus {
+      left: 1em;
+    }
   }
 
   i {
-    margin-right: 0.5em;
+
+    @media (min-width: $mq-sm) {
+      margin-right: 0.5em;
+    }
+  }
+
+  span {
+    display: none;
+
+    @media (min-width: $mq-sm) {
+      display: block;
+    }
   }
 
   &--black {
