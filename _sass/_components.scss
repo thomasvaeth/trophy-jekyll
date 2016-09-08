@@ -296,6 +296,54 @@
 }
 
 /**
+ * Navigation
+ */
+.nav {
+  @extend %letter-spacing;
+
+  position: absolute;
+  top: 1em;
+  left: 2em;
+  z-index: 99;
+
+  display: flex;
+  align-items: center;
+
+  font-family: $font-body;
+  transition: left 0.4s ease-in-out;
+
+  &:hover,
+  &:active,
+  &:focus {
+    left: 1em;
+  }
+
+  i {
+    margin-right: 0.5em;
+  }
+
+  &--black {
+    color: $color-black;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-black;
+    }
+  }
+
+  &--white {
+    color: $color-white;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-white;
+    }
+  }
+}
+
+/**
  * Post
  */
 .post {

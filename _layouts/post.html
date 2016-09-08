@@ -4,6 +4,10 @@ layout: default
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="section-padding--lg mast">
+    <a class="nav nav--white" href="{{ site.baseurl }}">
+      <i class="fa fa-lg fa-arrow-left"></i>
+      <span>Back to Posts</span>
+    </a>
     <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
     <div class="mast__container">
       <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>

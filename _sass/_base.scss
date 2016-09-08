@@ -84,7 +84,9 @@ a {
   text-decoration: none;
   transition: color 0.4s ease-in-out;
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     color: $color-alpha;
   }
 }
