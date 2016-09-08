@@ -64,9 +64,11 @@ I made everything as easy as possible to edit. Most things can be found in the `
 
 #### Build Settings
     include: ["_categories"]
+    exclude: []
     permalink: /:year/:month/:day/:title/
 
 * ````include```` - Folders that are not automatically included in Jekyll
+* ````exclude```` - Folders that are excluded from `_site_`
 * ````permalink```` - URL structure of blog posts
 
 ### _posts
