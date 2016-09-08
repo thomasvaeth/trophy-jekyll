@@ -14,9 +14,9 @@ permalink: /archive/
         <a class="card__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
           <div class="card__img">
             {% if post.image-sm %}
-              <figure class="absolute-bg" style="background-image: url('{{ post.image-sm }}');"></figure>
+              <figure class="absolute-bg wow" style="background-image: url('{{ post.image-sm }}');"></figure>
             {% else %}
-              <figure class="absolute-bg" style="background-image: url('{{ post.image }}');"></figure>
+              <figure class="absolute-bg wow" style="background-image: url('{{ post.image }}');"></figure>
             {% endif %}
           </div>
           <div class="card__container">
