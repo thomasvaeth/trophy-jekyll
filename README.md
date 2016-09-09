@@ -110,7 +110,6 @@ Jekyll does not have anything built in for categories, so I made making new cate
 
 ## Upcoming Additions
 * Page transitions
-* 404 page
 * More styled elements for blog posts
 
 ## Issues

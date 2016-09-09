@@ -316,14 +316,6 @@
 
   @media (min-width: $mq-sm) {
     left: 2em;
-
-    transition: left 0.4s ease-in-out;
-
-    &:hover,
-    &:active,
-    &:focus {
-      left: 1em;
-    }
   }
 
   i {
