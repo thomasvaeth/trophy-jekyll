@@ -375,6 +375,18 @@
   a {
     border-bottom: 1px solid $color-alpha;
   }
+
+  img {
+    padding-bottom: 0.75em;
+  }
+
+  figure {
+    padding-bottom: 0.75em;
+  }
+
+  figure > img {
+    padding-bottom: 0;
+  }
 }
 
 /**
