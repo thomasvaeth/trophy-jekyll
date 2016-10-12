@@ -5,3 +5,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "octopress-autoprefixer"
 end
+
+# If you want to use GitLab Pages, uncomment the line below.
+# gem "therubyracer", :platforms => :ruby
