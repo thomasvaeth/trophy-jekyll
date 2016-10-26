@@ -48,13 +48,26 @@ layout: default
 
 </article>
 
-{% if page.previous.url %}
-  <section class="next">
-    <a class="next__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ page.previous.image }}');">
-      <div class="next__container">
-        <span>Read Next</span>
-        <h2>{{page.previous.title}}</h2>
-      </div>
-    </a>
-  </section>
-{% endif %}
+<div class="post-navigation">
+  {% if page.next.url %}
+    <section class="next">
+      <a class="next__link" href="{{page.next.url | prepend: site.baseurl }}" style="background-image: url('{{ page.next.image }}');">
+        <div class="next__container">
+          <span>Read Next</span>
+          <h2>{{page.next.title}}</h2>
+        </div>
+      </a>
+    </section>
+  {% endif %}
+
+  {% if page.previous.url %}
+    <section class="previous">
+      <a class="previous__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ page.previous.image }}');">
+        <div class="previous__container">
+          <span>Read Previous</span>
+          <h2>{{page.previous.title}}</h2>
+        </div>
+      </a>
+    </section>
+  {% endif %}
+</div>

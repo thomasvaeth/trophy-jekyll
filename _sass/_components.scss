@@ -467,46 +467,60 @@
  * Next Post
  * On the Post page for single post pagination
  */
-.next {
+.post-navigation {
   background-color: $color-black;
+  margin: 0;
+  position: relative;
 
-  &__link {
-    display: block;
-    height: 25em;
-    padding: 6em 0;
+  .next,
+  .previous {
+    width: 50%;
+  
+    &__link {
+      display: block;
+      height: 15em;
+      padding: 3em 0;
 
-    color: $color-white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-
-    &:after {
-      @extend %overlay;
-    }
-
-    &:hover {
       color: $color-white;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50%;
+
+      &:after {
+        @extend %overlay;
+      }
+
+      &:hover {
+        color: $color-white;
+      }
+
+      &:hover:after {
+        background-color: rgba($color-alpha, 0.8);
+      }
     }
 
-    &:hover:after {
-      background-color: rgba($color-alpha, 0.8);
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+
+      text-align: center;
+
+      span {
+        @extend %letter-spacing;
+
+        font-family: $font-body;
+      }
     }
   }
 
-  &__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-
-    text-align: center;
-
-    span {
-      @extend %letter-spacing;
-
-      font-family: $font-body;
-    }
+  .next {
+    float: left;
+  }
+  .previous {
+    float: right;
   }
 }
 
