@@ -3,7 +3,7 @@
     {% for category in site.categories %}
       {% assign cat_name = category | first %}
       <li class="card">
-        <a class="card__link" href="{{ site.baseurl }}/category/{{ category | first | downcase }}/">
+        <a class="card__link" href="{{ site.baseurl }}/category/{{ category | first | downcase | slugify }}/">
           {% for post in site.categories[cat_name] limit: 1 %}
             <div class="card__img">
               {% if post.image-sm %}

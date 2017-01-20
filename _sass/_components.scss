@@ -296,6 +296,10 @@
     width: 90%;
     margin: 0 auto;
   }
+
+  h1 {
+    line-height: 1.2;
+  }
 }
 
 /**
@@ -366,6 +370,11 @@
 
   @media (min-width: $mq-md) {
     width: 55%;
+  }
+
+  h1, 
+  h2 {
+    line-height: 1.2;
   }
 
   p:first-child {
