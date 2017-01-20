@@ -15,10 +15,9 @@ var Tabs = (function() {
 
     display: function() {
       if (s.tab.length) {
-        [].forEach.call(s.tab, function(tab) {
-          tab.style.display = 'none';
+        [].forEach.call(s.tab, function(tab, idx) {
+          if (idx > 0) tab.style.display = 'none';          
         });
-        s.tab[0].style.display = 'block';
         s.tab[0].classList.add('active');
         s.tabs[0].classList.add('active');
       }
@@ -67,10 +66,9 @@ var Preview = (function() {
 
     display: function() {
       if (s.img.length) {
-        [].forEach.call(s.img, function(img) {
-          img.style.display = 'none';
+        [].forEach.call(s.img, function(img, idx) {
+          if (idx > 0) img.style.display = 'none';
         });
-        s.img[0].style.display = 'block';
       }
     },
 
