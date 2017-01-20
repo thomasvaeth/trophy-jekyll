@@ -13,8 +13,8 @@ layout: default
       <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
       <h1 itemprop="name headline">{{ page.title }}</h1>
       {% if page.categories.size > 0 %}
-        <span>
-          Posted in {{ page.categories | join: ', ' }}
+        <span class="categories">
+          Posted in {% for link in page.categories %}<a href="/category/{{ link | downcase }}">{{ link }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
         </span>
       {% endif %}
       <span></span>
