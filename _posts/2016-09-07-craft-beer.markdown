@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Craft Beer"
+title: "Craft ПИВАС"
 date: 2016-09-07
 categories:
   - Juice
