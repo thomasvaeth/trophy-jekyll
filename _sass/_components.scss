@@ -44,6 +44,10 @@
     will-change: opacity;
     animation: fade-in 1s both;
   }
+
+  ul {
+    list-style-type: none;
+  }
 }
 
 /**
@@ -134,6 +138,8 @@
   @include flex-grid(1, 2, $xxl: 3, $pad: 0.25em);
 
   padding: 2em 1em;
+
+  list-style-type: none;
 
   @media (min-width: $mq-md) {
     padding: 4em 2em;
@@ -283,10 +289,14 @@
 .mast {
   position: relative;
 
-  height: 35em;
+  height: 20em;
 
   color: $color-white;
   background-color: $color-black;
+
+  @media (min-width: $mq-sm) {
+    height: 35em;
+  }
 
   &:after {
     @extend %overlay;
