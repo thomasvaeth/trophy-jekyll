@@ -283,10 +283,14 @@
 .mast {
   position: relative;
 
-  height: 35em;
+  height: 20em;
 
   color: $color-white;
   background-color: $color-black;
+
+  @media (min-width: $mq-sm) {
+    height: 35em;
+  }
 
   &:after {
     @extend %overlay;
