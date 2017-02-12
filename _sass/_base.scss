@@ -57,14 +57,15 @@ body {
   }
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 
   font-family: $font-header;
+  line-height: 1.1;
 }
 
 h1 {
-  $fontSize: 3em;
+  $fontSize: 2.5em;
 
   @media (min-width: $mq-md) {
     font-size: $fontSize;
@@ -73,6 +74,28 @@ h1 {
   @media (min-width: $mq-xl) {
     font-size: $fontSize + 0.5em;
   }
+}
+
+h2 {
+  margin-bottom: 0.25em;
+
+  font-size: 1.75em;
+
+  @media (min-width: $mq-md) {
+    font-size: 2em;
+  }
+}
+
+h3 {
+  margin-bottom: 0.1em;
+
+  font-size: 1.5em;
+}
+
+h4 {
+  margin-bottom: 0.1em;
+
+  font-size: 1.25em;
 }
 
 p {
@@ -101,11 +124,30 @@ img {
   max-width: 100%;
 }
 
+blockquote {
+  margin: 2em 0;
+
+  font-family: $font-header;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+cite {
+  display: block;
+  margin-top: 0.125em;
+
+  font-family: $font-body;
+  font-weight: 400;
+  font-style: normal;
+
+  &:before {
+    content: "\2014 \0020";
+  }
+}
+
 ol, ul {
   margin: 0;
   padding: 0;
-
-  list-style-type: none;
 }
 
 /**

@@ -113,7 +113,7 @@ Jekyll does not have anything built in for categories, so I made making new cate
 * More styled elements for blog posts
 
 ## Issues
-Please submit any issues [here](https://github.com/thomasvaeth/trophy/issues).
+Please submit any issues [here](https://github.com/thomasvaeth/trophy-jekyll/issues).
 
 ## License
 Trophy is licensed under the MIT License.
