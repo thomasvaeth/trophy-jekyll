@@ -97,6 +97,8 @@ var wow = new WOW({
   animateClass: 'fade-in'
 });
 
+var rellax = new Rellax('.rellax');
+
 document.addEventListener('DOMContentLoaded', function() {
   Tabs.init();
   Preview.init();
