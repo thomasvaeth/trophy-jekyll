@@ -21,7 +21,7 @@ social:
 
 # Build settings
 include: ["_categories"]
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "README.md"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
