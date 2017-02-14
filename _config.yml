@@ -1,19 +1,19 @@
 # Site settings
-email: 
+email: bratishka.mipt@gmail.com
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
-description: 
+title: Пробуждение
+description: Шаг к мечте
 url: ""
 twitter_username: 
 default_img: 
 
 # Profile settings
-name: 
+name: Даня Меркулов
 profile_img: 
 profile: 
 social:
