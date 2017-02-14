@@ -8,7 +8,8 @@
 
     {% for category in sortedCats %}
       <li class="card">
-        <a class="card__link" href="{{ site.baseurl }}/category/{{ category | downcase | slugify }}/">
+        {% assign cat_dir = site.category_dir | default: 'category' %}
+        <a class="card__link" href="{{ site.baseurl }}/{{ cat_dir }}/{{ category | downcase | slugify }}/">
           {% for post in site.categories[category] limit: 1 %}
             <div class="card__img">
               {% if post.image-sm %}
