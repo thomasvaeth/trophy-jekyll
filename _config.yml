@@ -20,6 +20,7 @@ social:
   github: 
 
 # Build settings
+category_dir:
 include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
