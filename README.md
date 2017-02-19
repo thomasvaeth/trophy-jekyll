@@ -93,21 +93,6 @@ This is the YAML front matter block for blog posts.
 * ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
 * ````image-sm```` - Optional field for card layouts for image optimization and page speed (designed for 500x300px images)
 
-### _categories
-    ---
-    layout: default
-    title: New Category
-    description:
-    permalink: /category/new-category/
-    ---
-    {% include category.html %}
-
-Jekyll does not have anything built in for categories, so I made making new categories as simple as possible.
-* ````layout```` - This field will always be default
-* ````title```` - Name of the category
-* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
-* ````permalink```` - URL for the category
-
 ## Upcoming Additions
 * Page transitions
 * More styled elements for blog posts

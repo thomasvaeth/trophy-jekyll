@@ -4,7 +4,8 @@
       {% for cat in site.categories %}
         {{ cat | first }}
       {% endfor %}
-    {% endcapture %}{% assign sortedCats = cats | split:' ' | sort %}
+    {% endcapture %}
+    {% assign sortedCats = cats | split: ' ' | sort %}
 
     {% for category in sortedCats %}
       <li class="card">
