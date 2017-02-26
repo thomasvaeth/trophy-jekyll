@@ -25,7 +25,6 @@ social:
   instagram: https://www.instagram.com/thomas.vaeth/
 
 # Build settings
-include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "README.md"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/

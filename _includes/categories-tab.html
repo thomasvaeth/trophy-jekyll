@@ -1,10 +1,17 @@
 <div class="tab">
   <ul class="cards">
-    {% for category in site.categories %}
-      {% assign cat_name = category | first %}
+    {% capture cats %}
+      {% for cat in site.categories %}
+        {{ cat | first }}
+      {% endfor %}
+    {% endcapture %}
+    {% assign sortedCats = cats | split: ' ' | sort %}
+
+    {% for category in sortedCats %}
       <li class="card">
-        <a class="card__link" href="{{ site.baseurl }}/category/{{ category | first | downcase | slugify }}/">
-          {% for post in site.categories[cat_name] limit: 1 %}
+        {% assign cat_dir = site.category_dir | default: 'category' %}
+        <a class="card__link" href="{{ site.baseurl }}/{{ cat_dir }}/{{ category | downcase | slugify }}/">
+          {% for post in site.categories[category] limit: 1 %}
             <div class="card__img">
               {% if post.image-sm %}
                 <figure class="absolute-bg" style="background-image: url('{{ post.image-sm }}');"></figure>
@@ -14,8 +21,8 @@
             </div>
           {% endfor %}
           <div class="card__container">
-            <h2 class="card__header">{{ cat_name }}</h2>
-            <p class="card__count">{{ site.categories[cat_name] | size }} Posts</p>
+            <h2 class="card__header">{{ category }}</h2>
+            <p class="card__count">{{ site.categories[category] | size }} Posts</p>
             <span class="card__more">View All</span>
           </div>
         </a>
