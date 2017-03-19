@@ -29,7 +29,7 @@ exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "README.md"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
-# Sass
+# Sass 
 sass:
   style: compressed
 
