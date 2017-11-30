@@ -3,7 +3,7 @@
 welcome to oss17 world!
 
 we are hanyang university ICT
-
+2017012797
 
 
 
@@ -15,7 +15,7 @@ title: "Craft Beer"
 date: 2016-02-19
 categories:
   - Juice
-description: 
+description:
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
