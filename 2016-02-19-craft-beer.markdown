@@ -3,8 +3,8 @@
 welcome to oss17 world!
 
 we are hanyang university ICT
-2017012797
-frgthhhha
+
+
 
 
 
@@ -15,10 +15,23 @@ title: "Craft Beer"
 date: 2016-02-19
 categories:
   - Juice
-description:
+description: 
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
+welcome to oss17 world!
+
+we are hanyang university ICT
+
+
+
+welcome to oss17 world!
+
+we are hanyang university ICT
+
+
+
+
 Etsy squid occupy pop-up. Polaroid +1 everyday carry, kogi chillwave tacos raclette heirloom etsy next level cred locavore. Blog street art DIY, pug crucifix asymmetrical chicharrones. Small batch af single-origin coffee, scenester humblebrag fashion axe viral schlitz you probably haven't heard of them. Kickstarter synth poutine brunch hoodie. Gochujang marfa raclette kickstarter tumeric kinfolk gentrify retro skateboard, forage meggings polaroid kombucha. Tilde mlkshk fam meggings.
 
 <ul>
