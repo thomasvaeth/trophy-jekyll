@@ -1,229 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trophy</title>
-    <description>Trophy is a blog theme for Jekyll by Thomas Vaeth in Seattle, Washington.</description>
-    <link>http://thomasvaeth.com/trophy-jekyll/</link>
-    <atom:link href="http://thomasvaeth.com/trophy-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Feb 2017 19:31:08 -0800</pubDate>
-    <lastBuildDate>Sat, 25 Feb 2017 19:31:08 -0800</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <title>Philosophy of technology in education.</title>
+    <description>The formal education systems has been used differents technologies for many, many, centuries. Today we need reflexions about the transitions process in many differents ways that can be produce a radical change in the manner that teach and learn in our global society.</description>
+    <link>https://manuelvarzen.github.io//</link>
+    <atom:link href="https://manuelvarzen.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Jun 2018 17:06:13 -0500</pubDate>
+    <lastBuildDate>Mon, 04 Jun 2018 17:06:13 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.2</generator>
     
       <item>
-        <title>Roof Party</title>
-        <description>&lt;p&gt;Etsy squid occupy pop-up. Polaroid +1 everyday carry, kogi chillwave tacos raclette heirloom etsy next level cred locavore. Blog street art DIY, pug crucifix asymmetrical chicharrones. Small batch af single-origin coffee, scenester humblebrag fashion axe viral schlitz you probably haven’t heard of them. Kickstarter synth poutine brunch hoodie. Gochujang marfa raclette kickstarter tumeric kinfolk gentrify retro skateboard, forage meggings polaroid kombucha. Tilde mlkshk fam meggings.&lt;/p&gt;
+        <title>Consideraciones (éticas y operativas) al uso de la tecnología</title>
+        <description>&lt;p&gt;Creo que el punto interesante en la discusión sobre ciencia y tecnología; y su adopción en la sociedad o en la organización[1] es ubicar el paradigma desde el cual construimos el discurso de nuestras afirmaciones. Así
+¿Sería posible conciliar un enfoque post-positivista con un enfoque social constructivista añadiendo siempre las consideraciones éticas que suponen la adopción de una determinada tecnología?&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.&lt;/li&gt;
-  &lt;li&gt;Church-key crucifix messenger bag health goth&lt;/li&gt;
-  &lt;li&gt;Try-hard artisan direct trade&lt;/li&gt;
-  &lt;li&gt;Cold-pressed selfies&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Y sí, efectivamente, podría considerarse un sesgo. Pero que persona o acción humano no lo tiene. Tal vez se piensa que la tecnología es neutra y esta libre de sesgos, pero desde una perspectiva fenomenológica esta situación es diferente, por que supone superar la dicotomia entre sujeto y objeto.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.&lt;/li&gt;
-  &lt;li&gt;Church-key crucifix messenger bag health goth&lt;/li&gt;
-  &lt;li&gt;Try-hard artisan direct trade&lt;/li&gt;
-  &lt;li&gt;Cold-pressed selfies&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Así, el enfoque post.positivista de sostener que se puede separar objeto (no-humano) del sujeto (humano) ha sido al menos puesto en cuestión por la teoría del actor red del filosofo francés Bruno Latour quién sostiene que ambos se constituyes en uno a través de sus relaciones de mediación y traslación. Una aplicación de esta teoría se puede leer en la cita [2].&lt;/p&gt;
 
-&lt;h3&gt;Subway tile&lt;/h3&gt;
-&lt;p&gt;Knausgaard readymade williamsburg tote bag taxidermy, DIY meditation copper mug. Farm-to-table &lt;a href=&quot;#&quot;&gt;street art&lt;/a&gt; fixie, chambray vice literally four loko vaporware. Pickled taxidermy freegan, affogato pinterest sriracha vexillologist narwhal pour-over. Man braid food truck celiac +1 bicycle rights, semiotics kogi fixie biodiesel woke raw denim quinoa ugh selfies williamsburg. Sartorial af ennui bitters knausgaard, leggings kickstarter slow-carb chia sustainable hexagon. Prism 3 wolf moon occupy ramps wayfarers tumblr narwhal 90’s. Woke chambray church-key before they sold out, gochujang fashion axe franzen banh mi pinterest forage kinfolk.&lt;/p&gt;
+&lt;p&gt;Por otra parte. Considero que siempre será necesario incluir el matiz de las consideraciones éticas de la adopción de una tecnología u otra, en una sociedad o en una organización, porque de no hacerlo así, es probable que ese hecho nos conduzca a un determinismo irracional. Y si esta evaluación nos conduce a rechazar la adopción de una tecnología u otra, entonces deberíamos aceptar ese juicio. Recordemos que no será suficiente el límite del marco legal por que en su definición es muy probable que en sus consideraciones éticas (del uso de una tecnología “x”, “y” o “z”) estuvieran ausentes.&lt;/p&gt;
 
-&lt;figure&gt;
-  &lt;img src=&quot;https://unsplash.it/2000/1200?image=1003&quot; alt=&quot;Placeholder&quot; /&gt;
-&lt;/figure&gt;
+&lt;p&gt;Y en ese sentido plantearemos un caso pragmático para sostener que nuestro “sesgo” es necesario más aún cuando esta de por medio la cuestión pública.&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry. Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+&lt;p&gt;Un caso pragmático: 
+Un político dice: “hay un experto extranjero que dice que tiene computadoras para las escuelas a $100 dólares, Vamos a comprar”. 
+El equipo económico dice: “Efectivamente, podemos comprar, nos alcanza” Check
+El equipo técnico-tecnológico dice. “Si, son compatibles, etc, etc, etc, etc. Check 
+El equipo pedagógico dice: Sí, efectivamente, hacemos unas modificaciones y sí, se puede. 
+[Un equipo inter disciplinario desde el enfoque de la filosofía de la tecnología hubiera dicho que no argumentado la siguiente secuencia: ¿que es esta tecnología de computadoras que se puede vender a 100 dólares? ¿Cuál es su visión, su paradigma? ¿es válido para nosotros? y Si es así, ¿con qué condiciones? ¿en qué contextos? y si encontramos el contexto y las condiciones como serán consumidos estos objetos, estos productos, estos artefactos, estos inventos, ]&lt;/p&gt;
 
-&lt;blockquote&gt;
-  Sartorial af ennui bitters knausgaard, leggings kickstarter slow-carb chia sustainable hexagon. Prism 3 wolf moon occupy ramps wayfarers tumblr narwhal 90&#39;s.
-  &lt;cite&gt;Man braid&lt;/cite&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Y así fue. Durante y después que el gobierno peruano compro las 800,000 computadoras XO a un precio de $188.88 varias investigaciones [3] [4] [5] [6] (por no decir todas, solo estamos citando algunas cuantas)  que se hicieron indicaron lo que siempre indican hasta la fecha: que si bien motivan el aprendizaje de nuevas habilidades la interacción con estos equipos tuvo un efecto mínimo en los aprendizajes esperados de los temas de comunicación y matemática. Y entonces surge una nueva pregunta: ¿debo cambiar el curricular o debo cambiar esta tecnología? Pero ¿es ético gastar millones de dolares para hacerme una pregunta tan básica que con o sin e conocimiento de la filosofía en general y de a filosofía de la tecnología en particular me la hubiera podido hacer?&lt;/p&gt;
 
-&lt;h4&gt;Subway tile&lt;/h4&gt;
-&lt;p&gt;Slow-carb cornhole crucifix thundercats intelligentsia. Trust fund bushwick la croix, 8-bit hell of ennui chicharrones vegan master cleanse tilde subway tile bespoke roof party. Next level celiac bushwick coloring book subway tile. Lyft knausgaard four loko, twee sustainable narwhal letterpress PBR&amp;amp;B kombucha paleo mixtape helvetica. Photo booth gastropub yr sartorial kitsch godard, etsy hella literally kale chips. Mixtape hella readymade selvage taxidermy cornhole umami four dollar toast, yr seitan blog. Butcher whatever copper mug, keffiyeh authentic humblebrag irony distillery williamsburg fingerstache helvetica keytar glossier.&lt;/p&gt;
+&lt;p&gt;El sustento teórico, la experiencia experimental, la visión conceptual, que permitió sustentar el proyecto de las computadoras XO fue la tesis doctoral [7] de Claudia Urrea quien asumió después de algunos meses la dirección pedagógica de la organización OLPC a nivel global. No recuerdo haber escuchado o leído alguna publicación del Ministerio de Educación o de cualquier otra entidad universitaria haciendo una análisis detallado de aquella tesis o del alcance del proyecto cuestionando su visión hegemonía del uso de una determinada tecnología. Y así fue como se acepto una visión tecnológica que le ha costado al país varios cientos de millones y que ni siquiera ha podido satisfacer la visión post-positivista, determinista, económica financiera, de las evaluaciones de impacto.&lt;/p&gt;
 
-&lt;figure&gt;
-  &lt;img src=&quot;https://unsplash.it/2000/1200?image=1003&quot; alt=&quot;Placeholder&quot; /&gt;
-  &lt;figcaption&gt;Gentrify cray pug authentic, cliche listicle actually subway tile woke semiotics af.&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;p&gt;Pero este proyecto masivo de uso de computadoras en las escuelas tuvo un destino muy diferente en otras latitudes: Uruguay. Empezó con el proyecto Ceibal y al parecer la adopción ha sido exitosa justamente por que en ese país se cumplieron los supuestos de la investigación de la Urrea. Pero esta otra pregunta ¿porqué tenemos que afirmar que la adopción y asimilación de una tecnología será igual en todos los contextos? La investigación de Anita Chan tiene esta perspectiva con relación a este tema en general y al caso del proyecto OLPC en el Perú, en particular.&lt;/p&gt;
 
-&lt;p&gt;Gluten-free la croix activated charcoal tousled, brunch semiotics sartorial mustache hashtag. Leggings pabst waistcoat quinoa cliche pinterest letterpress, flannel poke forage +1 retro snackwave humblebrag schlitz. Wayfarers chartreuse occupy, direct trade farm-to-table irony blog activated charcoal shoreditch fam live-edge. Intelligentsia scenester gochujang gentrify portland offal. Pop-up schlitz hot chicken humblebrag, tattooed ugh neutra yr street art normcore la croix thundercats lo-fi. Gentrify cray pug authentic, cliche listicle actually subway tile woke semiotics af. Trust fund edison bulb biodiesel listicle, tattooed cornhole fashion axe blue bottle XOXO leggings pop-up vexillologist.&lt;/p&gt;
+&lt;p&gt;Así que finalmente, me parece que nos podemos permitir un sesgo en beneficio del bien común más aún cuando la cuestión pública siempre esta en juego.&lt;/p&gt;
 
-&lt;p&gt;Pinterest cold-pressed selfies man bun twee williamsburg irony, art party snackwave tumeric knausgaard marfa polaroid chambray. PBR&amp;amp;B semiotics selvage brooklyn hexagon cray. Edison bulb offal vice, squid humblebrag 90’s kitsch williamsburg chicharrones austin. Poke 3 wolf moon selfies banh mi farm-to-table raclette. +1 roof party polaroid williamsburg, chicharrones retro bicycle rights portland literally selfies selvage lyft single-origin coffee aesthetic kale chips. Blog yr la croix four loko beard. Gentrify 8-bit keytar, fam kombucha poke quinoa green juice schlitz coloring book.&lt;/p&gt;
+&lt;p&gt;Fuentes:&lt;/p&gt;
+
+&lt;p&gt;[1] Orlikowski, W. (2008, noviembre). Sociomateriality: Challenging the separation of technology, Work and Organization. Department of Management, Information Systems and Innovation Group, London School of Economics and Political Science. Recuperado a partir de http://is2.lse.ac.uk/wp/pdf/wp174.pdf&lt;/p&gt;
+
+&lt;p&gt;[2] Heeks, R., &amp;amp; Stanforth, C. (2015). Technological change in developing countries: opening the black box of process using actor–network theory. Development Studies Research, 2(1), 33-50. https://doi.org/10.1080/21665095.2015.1026610&lt;/p&gt;
+
+&lt;p&gt;[3] Severin, E., Santiago, C., Cristia, J., Ibarrarán, P., Thompson, J., &amp;amp; Cueto, S. (2010). Evaluación experimental del programa «Una laptop por niño» en Perú. Aportes, Banco Interamericano de Desarrollo, 5, 12. Recuperado a partir de http://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=35422036&lt;/p&gt;
+
+&lt;p&gt;[4] Cristia, J., Ibarrarán, P., Cueto, S., Santiago, A., &amp;amp; Severin, E. (2010). The short-term impact of the One Laptop per Child Program: A Randomized Evaluation., 48. Recuperado a partir de http://www.econ.yale.edu/conference/neudc11/papers/paper_302.pdf&lt;/p&gt;
+
+&lt;p&gt;[5] Cristia, J., Ibarrarán, P., Cueto, S., Santiago, A., &amp;amp; Severin, E. (2012). Technology and child development: Evidence from One Laptop per Child Program., 1(1), 43. Recuperado a partir de http://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=36706954&lt;/p&gt;
+
+&lt;p&gt;[6] Severin, E., Santiago, A., Cristia, J., Ibarrarán, P., Thompson, J., &amp;amp; Cueto, S. (2011). Evaluation of the «Una Laptop Por NIño» program in Peru: Results and Perspectives. Recuperado a partir de http://dl.dropbox.com/u/3118867/Aporte Peru ENG.pdf&lt;/p&gt;
+
+&lt;p&gt;[7] Urrea, C. (2007, septiembre). One to one connections: Building a Community Learning Culture. Boston, Massachusetts. Recuperado a partir de http://dspace.mit.edu/bitstream/handle/1721.1/41706/221978414.pdf?sequence=1&lt;/p&gt;
+
+&lt;p&gt;[8] Chan, Anita (2013). Networking Peripherias, technological futures and the myth of digital universalism (1st ed.). Massachusetts Institute of Technology.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 08 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/08/roof-party/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/08/roof-party/</guid>
+        <pubDate>Wed, 30 May 2018 00:00:00 -0500</pubDate>
+        <link>https://manuelvarzen.github.io//2018/05/30/Tech-Operation-Ethics/</link>
+        <guid isPermaLink="true">https://manuelvarzen.github.io//2018/05/30/Tech-Operation-Ethics/</guid>
         
         
-        <category>Juice</category>
+        <category>Philosophy</category>
+        
+        <category>Technology</category>
         
       </item>
     
       <item>
-        <title>Craft Beer</title>
-        <description>&lt;p&gt;Tbh vaporware mumblecore iceland echo park DIY. Plaid woke next level enamel pin, vegan cred salvia pug. XOXO sartorial synth gluten-free, cold-pressed mumblecore craft beer helvetica. Vegan lyft squid, vice pop-up bushwick gastropub flexitarian echo park gentrify flannel venmo. Banh mi ugh direct trade, tote bag irony tbh biodiesel. Umami YOLO migas drinking vinegar flannel distillery, lumbersexual sustainable cold-pressed bespoke mumblecore yr hoodie franzen. Four dollar toast bitters iceland, cornhole tumeric shabby chic kitsch enamel pin bicycle rights kombucha butcher fixie normcore.&lt;/p&gt;
+        <title>Uso de las computadoras conectadas a la Internet en la escuela pública: sus actores (director, docente, alumno y padre de familia) de cara a las tecnologías de la información y comunicación</title>
+        <description>&lt;p&gt;Hallazgos principales&lt;/p&gt;
 
-&lt;p&gt;Sartorial kale chips keytar freegan craft beer, tilde put a bird on it post-ironic knausgaard everyday carry aesthetic. Activated charcoal selfies vice blog asymmetrical, hella twee copper mug health goth flexitarian. Tattooed pickled cold-pressed, PBR&amp;amp;B hell of schlitz seitan. Retro williamsburg schlitz health goth messenger bag roof party. Migas fanny pack chillwave chambray. Post-ironic roof party wolf ethical. Tacos PBR&amp;amp;B beard, lumbersexual retro DIY tumeric selvage brunch.&lt;/p&gt;
+&lt;p&gt;Establecido entre los actores el uso de la escritura en el papel: de izquierda a derecha, de arriba abajo, de inicio a fin; el uso de las computadoras conectadas a la Internet se caracterizó por mantener la metáfora del papel al interior de sus pantallas. Además, aquel uso evoco, en todos ellos, el reconocimiento de modalidades y espacios iguales para su aprendizaje pero con significados distintos en el cual no estuvo involucrada la escuela.&lt;/p&gt;
 
-&lt;p&gt;Gentrify locavore selfies fam bicycle rights, biodiesel kombucha fixie vape lomo fanny pack mumblecore letterpress leggings kale chips. Biodiesel typewriter mlkshk man braid. Ugh fap snackwave microdosing synth live-edge. Pickled skateboard fap, direct trade lo-fi wolf jean shorts farm-to-table unicorn. Messenger bag iceland succulents, fap twee umami truffaut scenester artisan farm-to-table hell of normcore mixtape pop-up slow-carb. Disrupt iceland air plant, sustainable copper mug squid locavore jean shorts tacos selfies meggings meditation hell of 3 wolf moon. Schlitz thundercats lyft raclette green juice intelligentsia.&lt;/p&gt;
+&lt;p&gt;Así, para todos los actores, el aprendizaje del uso de estas tecnologías se produjo bajo dos modalidades (autodidacta y por pares) y en dos espacios distintos (la cabina pública de Internet y el domicilio). Con relación a lo que significó, identificamos diferentes sentidos en cada uno de ellos: la expectativa de mejora, en el director; el cambio de la práctica pedagógica, en el docente; la frustración, en el alumno; y el sentido de utilidad, en los padres de familia.&lt;/p&gt;
 
-&lt;p&gt;Four loko pinterest lo-fi beard kinfolk marfa. Man bun flannel activated charcoal blue bottle. Chillwave coloring book waistcoat hammock knausgaard selfies. Everyday carry kombucha microdosing knausgaard, intelligentsia organic celiac gochujang drinking vinegar bespoke ethical blue bottle trust fund 8-bit. Before they sold out cliche 90’s, gentrify jianbing pug microdosing art party chia paleo chartreuse everyday carry tattooed. Listicle taxidermy art party migas tote bag meditation, farm-to-table PBR&amp;amp;B. Poutine vaporware letterpress hell of.&lt;/p&gt;
+&lt;p&gt;Discusión&lt;/p&gt;
+
+&lt;p&gt;Dejar a un lado la metáfora del uso del papel en la pantalla es, tal vez, el mayor de los desafíos para cualquier empresa, organización o institución, porque demanda el (re)diseño total de su funcionamiento para aprovechar las características propias de las computadoras conectadas a la Internet en particular y la de los dispositivos digitales en general.&lt;/p&gt;
+
+&lt;p&gt;Si los actores de estas dos instituciones educativas encontraron espacios y modalidades diferentes a la escuela para aprender a usar las computadoras y la Internet interpretaremos entonces que, por diferentes circunstancias, las escuelas dejaron de tener las condiciones para afrontar la enseñanza del uso de estos dispositivos.&lt;/p&gt;
+
+&lt;p&gt;Pero aun así las usaron. Si comparamos los sentidos pertenecientes al director vs al padre de familia, encontraremos una similitud hacia lo utilitario; sin embargo, cuando enfrentamos lo enunciado por el docente y los alumnos advertimos una tensión para (no) usar aquellos dispositivos, en los escasos espacios y por el corto tiempo del cual se dispone para emplearlos.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Actualización de los hallazgos del trabajo de investigación:&lt;a href=&quot;http://bit.ly/2IVl3Pe&quot;&gt;“Aprendizajes y significados del uso de las computadoras y la Internet por parte de los actores (director, docente, alumno y padre de familia) en 2 instituciones educativas (II.EE.) de gestión pública en el distrito de Los Olivos, entre los meses de julio a setiembre del año 2010”&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 07 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/07/craft-beer/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/07/craft-beer/</guid>
+        <pubDate>Fri, 20 Apr 2018 00:00:00 -0500</pubDate>
+        <link>https://manuelvarzen.github.io//2018/04/20/Technology-Perception/</link>
+        <guid isPermaLink="true">https://manuelvarzen.github.io//2018/04/20/Technology-Perception/</guid>
         
         
-        <category>Juice</category>
+        <category>Computers</category>
+        
+        <category>Internet</category>
+        
+        <category>Schools</category>
+        
+        <category>Technology</category>
+        
+        <category>Organization</category>
+        
+        <category>Perception</category>
+        
+        <category>Learning</category>
         
       </item>
     
       <item>
-        <title>Next Level Blog</title>
-        <description>&lt;p&gt;Humblebrag ramps single-origin coffee, literally jean shorts polaroid mlkshk franzen williamsburg distillery venmo. Skateboard leggings disrupt banjo shoreditch blue bottle. Brooklyn church-key cronut hell of waistcoat, polaroid lomo chambray bitters narwhal keytar knausgaard coloring book hexagon. Wayfarers disrupt polaroid humblebrag DIY vegan ramps, forage yuccie. Craft beer next level af copper mug. Humblebrag pabst kombucha, portland copper mug coloring book photo booth yuccie you probably haven’t heard of them messenger bag wolf before they sold out knausgaard. Snackwave deep v selfies vegan microdosing, brunch YOLO street art skateboard.&lt;/p&gt;
-
-&lt;p&gt;Hot chicken tbh hell of 8-bit chia humblebrag. Man bun actually leggings yuccie, forage gastropub aesthetic typewriter banh mi next level vape. Disrupt 90’s man braid, sustainable jianbing la croix raw denim blog readymade pop-up venmo craft beer cred next level tacos. Fingerstache farm-to-table sriracha live-edge. Next level blog celiac actually. Yuccie poke wayfarers selfies disrupt skateboard, hot chicken before they sold out. Tousled thundercats gluten-free, readymade crucifix listicle pork belly vape bushwick green juice taxidermy.&lt;/p&gt;
-
-&lt;p&gt;Banjo wolf meh, vinyl polaroid cliche small batch artisan neutra biodiesel microdosing post-ironic four dollar toast authentic. Jean shorts vaporware pork belly church-key master cleanse, cred locavore salvia. Ramps normcore 3 wolf moon, next level subway tile readymade chia irony. Pug hot chicken keytar, bushwick photo booth fashion axe thundercats hashtag deep v taxidermy poutine. Godard kickstarter flexitarian, flannel la croix normcore disrupt freegan single-origin coffee chillwave. XOXO poutine cardigan chicharrones truffaut. Scenester offal skateboard ramps.&lt;/p&gt;
-
-&lt;p&gt;Roof party twee tilde, flexitarian sartorial copper mug drinking vinegar craft beer heirloom. Next level cliche forage, ugh cardigan sustainable pitchfork lyft man bun fashion axe williamsburg lumbersexual gentrify. Street art blue bottle lo-fi pickled. Distillery scenester pok pok normcore 3 wolf moon aesthetic, selvage tbh knausgaard mumblecore. Narwhal lomo wayfarers gastropub etsy VHS cold-pressed. Kickstarter cliche waistcoat, sriracha portland flexitarian listicle. Everyday carry twee four loko sartorial literally fixie.&lt;/p&gt;
+        <title>What is technology?</title>
+        <description>&lt;p&gt;What is technology?
+It is a big and complex questions. For more, follow &lt;a href=&quot;http://bit.ly/2J29rdI&quot;&gt;this link&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 06 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/06/next-level-blog/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/06/next-level-blog/</guid>
+        <pubDate>Tue, 03 Apr 2018 00:00:00 -0500</pubDate>
+        <link>https://manuelvarzen.github.io//2018/04/03/What-Technology-Is/</link>
+        <guid isPermaLink="true">https://manuelvarzen.github.io//2018/04/03/What-Technology-Is/</guid>
         
         
-      </item>
-    
-      <item>
-        <title>VHS Selfies</title>
-        <description>&lt;p&gt;8-bit typewriter scenester, crucifix tousled tilde leggings brunch chicharrones salvia deep v man bun. Master cleanse man braid disrupt banjo, deep v cray tumblr cronut. Truffaut street art everyday carry DIY. Pinterest vice affogato, marfa tilde single-origin coffee cardigan swag small batch vinyl. Chillwave intelligentsia fap occupy bespoke, next level pickled kombucha pinterest brunch cliche. Butcher pickled tousled, hoodie gastropub leggings artisan next level migas swag whatever franzen brunch. Pork belly shabby chic deep v hella, portland raw denim blog etsy tote bag hoodie.&lt;/p&gt;
-
-&lt;p&gt;Tilde next level lomo gluten-free 8-bit, man bun ugh. Four loko fixie plaid, disrupt vinyl mlkshk fap whatever etsy hammock. Trust fund wolf portland, flannel austin paleo etsy cred irony microdosing vinyl. Pork belly tumblr small batch, plaid brunch fanny pack cold-pressed microdosing YOLO. Fashion axe locavore chartreuse cred. Paleo kombucha VHS selfies heirloom raw denim normcore, fashion axe chicharrones slow-carb. Try-hard hoodie +1 bitters kombucha.&lt;/p&gt;
-
-&lt;p&gt;Post-ironic raw denim everyday carry waistcoat, butcher thundercats heirloom distillery man bun. Marfa banh mi keytar, distillery scenester fingerstache YOLO brunch kogi. Cred try-hard quinoa banjo, pickled deep v lumbersexual austin pour-over portland. Selvage photo booth hella austin kickstarter yr. Semiotics sustainable mumblecore, everyday carry tilde cronut pinterest. Mumblecore butcher austin artisan, +1 crucifix craft beer synth art party trust fund hashtag. Tousled next level portland squid whatever, offal +1 neutra skateboard.&lt;/p&gt;
-
-&lt;p&gt;Forage stumptown williamsburg freegan. Microdosing sartorial humblebrag, master cleanse vegan cray tumblr austin hammock chillwave tacos venmo narwhal. Banh mi next level dreamcatcher, banjo heirloom beard flexitarian kale chips leggings everyday carry vegan chambray mlkshk austin. Authentic godard kogi gluten-free, before they sold out you probably haven’t heard of them kitsch. Fingerstache meh literally actually hashtag, thundercats cold-pressed freegan austin hammock dreamcatcher meggings lomo. Roof party everyday carry gastropub cornhole. Austin microdosing drinking vinegar, portland pitchfork 90’s freegan everyday carry taxidermy celiac street art bicycle rights DIY butcher.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/05/vhs-selfies/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/05/vhs-selfies/</guid>
+        <category>Philosophy</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Four Dollar Toast</title>
-        <description>&lt;p&gt;Flexitarian fixie keytar vice craft beer. Forage normcore cred austin brunch, put a bird on it actually. Chia put a bird on it skateboard, salvia paleo heirloom semiotics knausgaard selvage typewriter squid humblebrag locavore. Fap etsy actually PBR&amp;amp;B, franzen sriracha scenester. 3 wolf moon pug fingerstache VHS, helvetica migas cred letterpress you probably haven’t heard of them deep v yuccie small batch vice. Meh 90’s kickstarter, literally health goth asymmetrical umami chartreuse squid mixtape chicharrones franzen. Bicycle rights wayfarers chicharrones gastropub kale chips authentic.&lt;/p&gt;
-
-&lt;p&gt;Poutine hella seitan affogato mixtape, +1 vice drinking vinegar chartreuse fashion axe iPhone 8-bit helvetica migas. Pork belly skateboard cold-pressed bicycle rights biodiesel four dollar toast. PBR&amp;amp;B post-ironic wayfarers 8-bit health goth. XOXO wolf readymade, neutra hella trust fund hammock umami fap paleo dreamcatcher mustache authentic skateboard. Hammock chicharrones kitsch kogi flexitarian four dollar toast, gastropub vinyl blue bottle everyday carry. Meggings kinfolk art party pop-up. Intelligentsia tofu kale chips actually flexitarian, listicle hoodie letterpress kitsch vegan drinking vinegar brunch.&lt;/p&gt;
-
-&lt;p&gt;Bushwick leggings yuccie authentic, whatever forage brooklyn celiac. Bespoke four loko trust fund farm-to-table single-origin coffee lumbersexual, brunch tilde. Intelligentsia migas fanny pack, dreamcatcher cardigan everyday carry mustache heirloom artisan. Marfa twee aesthetic messenger bag, you probably haven’t heard of them meditation offal disrupt gentrify tousled poutine PBR&amp;amp;B keffiyeh cornhole deep v. Direct trade raw denim flannel, master cleanse four loko beard kale chips swag vice meggings gochujang chicharrones pour-over. Master cleanse man braid before they sold out authentic scenester. Helvetica brunch single-origin coffee, readymade cronut art party meh ennui.&lt;/p&gt;
-
-&lt;p&gt;Drinking vinegar readymade mlkshk hashtag, seitan man braid salvia fixie meggings hella venmo kinfolk williamsburg next level aesthetic. Kombucha distillery umami disrupt, intelligentsia flexitarian beard neutra brunch asymmetrical plaid pitchfork microdosing four loko. Chia yr microdosing synth, truffaut schlitz iPhone butcher vice heirloom 8-bit kinfolk freegan gochujang craft beer. Craft beer banjo flannel deep v pitchfork beard, trust fund biodiesel. Blue bottle pitchfork listicle, venmo tote bag hella mlkshk irony gluten-free trust fund small batch bushwick. Irony kinfolk gentrify put a bird on it marfa. Quinoa squid forage, hammock leggings hoodie tote bag yuccie cold-pressed post-ironic ethical chicharrones etsy fixie.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/04/four-dollar-toast/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/04/four-dollar-toast/</guid>
-        
-        
-        <category>Brunch</category>
-        
-      </item>
-    
-      <item>
-        <title>Austin Mustache</title>
-        <description>&lt;p&gt;Whatever shabby chic leggings tilde. Echo park chambray banjo, occupy pour-over slow-carb readymade williamsburg paleo franzen. Crucifix franzen pop-up, gastropub paleo tilde craft beer sartorial occupy street art marfa. Authentic tote bag asymmetrical bicycle rights swag letterpress. Occupy hoodie disrupt, cold-pressed 3 wolf moon craft beer skateboard forage whatever green juice bicycle rights. Bushwick quinoa semiotics kickstarter, gochujang waistcoat flannel chambray. Ennui cronut +1 pitchfork street art.&lt;/p&gt;
-
-&lt;p&gt;Lomo bicycle rights selfies PBR&amp;amp;B pour-over photo booth. Hashtag everyday carry kombucha, locavore bushwick tote bag swag etsy cray. Actually thundercats shoreditch, health goth austin mustache leggings chartreuse. Kogi bitters poutine flannel, pour-over raw denim flexitarian marfa literally shabby chic pork belly polaroid viral. Man braid literally readymade pug. Waistcoat pork belly pickled, church-key gluten-free vice fashion axe echo park farm-to-table. Echo park aesthetic wayfarers hashtag, tacos craft beer pickled neutra tousled portland.&lt;/p&gt;
-
-&lt;p&gt;Pour-over slow-carb single-origin coffee, kitsch pabst 90’s farm-to-table. Pug mixtape fap dreamcatcher synth, biodiesel actually lumbersexual marfa single-origin coffee pickled meh occupy. Venmo heirloom trust fund cred, quinoa sriracha 3 wolf moon cold-pressed. Schlitz narwhal kinfolk man bun hella. Synth cliche lo-fi hoodie, meditation deep v forage chartreuse wolf yr chillwave fingerstache. Fixie lumbersexual keffiyeh bicycle rights, tofu pitchfork swag raw denim. Marfa mixtape pug, craft beer cornhole semiotics squid sriracha yuccie organic etsy.&lt;/p&gt;
-
-&lt;p&gt;Semiotics deep v kinfolk stumptown wayfarers put a bird on it, marfa man braid pitchfork waistcoat forage raw denim salvia. Narwhal retro actually, direct trade lumbersexual keytar kinfolk. Neutra fanny pack mixtape tumblr, pop-up irony mustache normcore. Sriracha readymade banh mi, chambray ennui kogi salvia semiotics shabby chic cornhole bushwick slow-carb VHS mumblecore. Meh keytar skateboard, ugh disrupt cray authentic kombucha roof party bitters plaid cardigan direct trade YOLO beard. Health goth truffaut ennui before they sold out affogato. DIY four loko etsy stumptown quinoa swag scenester shoreditch heirloom.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 03 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/03/austin-mustache/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/03/austin-mustache/</guid>
-        
-        
-        <category>Cities</category>
-        
-      </item>
-    
-      <item>
-        <title>Chillwave</title>
-        <description>&lt;p&gt;Hashtag wayfarers squid wolf literally vice schlitz, bicycle rights viral kinfolk kitsch locavore pickled readymade. Freegan mlkshk pour-over XOXO, chillwave jean shorts normcore celiac kale chips occupy retro. Dreamcatcher microdosing locavore bicycle rights slow-carb, retro yr flannel. Flannel literally fixie aesthetic gastropub brooklyn. Helvetica next level fanny pack portland. Art party mustache cornhole, health goth before they sold out mlkshk next level pitchfork distillery pug twee forage. Thundercats wayfarers shabby chic lomo, banh mi narwhal typewriter raw denim semiotics yuccie helvetica franzen +1 lumbersexual.&lt;/p&gt;
-
-&lt;p&gt;Chillwave helvetica etsy ramps, brunch tattooed cornhole wayfarers plaid everyday carry readymade aesthetic cliche. Marfa VHS schlitz intelligentsia migas wayfarers, DIY organic pitchfork. Fingerstache gastropub 8-bit, deep v paleo migas raw denim you probably haven’t heard of them vinyl sriracha ennui next level mustache. Selfies church-key marfa deep v gluten-free, shabby chic austin bitters cold-pressed health goth skateboard waistcoat sustainable. Lomo organic tote bag flexitarian drinking vinegar affogato. Kinfolk pour-over kitsch gluten-free, portland single-origin coffee slow-carb kombucha. Health goth leggings freegan banjo listicle cardigan.&lt;/p&gt;
-
-&lt;p&gt;Organic single-origin coffee tilde, DIY mustache mlkshk meditation venmo keytar gentrify pug blue bottle polaroid pickled try-hard. Shoreditch portland banjo salvia keffiyeh, chicharrones offal beard bicycle rights flexitarian pug health goth. Mumblecore actually kale chips, wayfarers XOXO 90’s pour-over poutine gentrify truffaut letterpress seitan godard ugh. Chicharrones deep v vice intelligentsia raw denim microdosing, shabby chic bitters. Ramps polaroid cliche, shabby chic echo park cold-pressed pickled meditation wayfarers blue bottle celiac vegan kale chips kitsch venmo. Echo park chartreuse bitters austin fanny pack. Cronut 90’s whatever stumptown waistcoat bespoke single-origin coffee cred, knausgaard fixie chambray.&lt;/p&gt;
-
-&lt;p&gt;Vice tumblr mixtape art party. 90’s scenester cliche church-key retro mlkshk. Plaid cold-pressed DIY street art cray fingerstache poutine craft beer. Drinking vinegar hella meggings lo-fi. Four loko blue bottle pitchfork flexitarian master cleanse, bitters ugh freegan mumblecore tousled post-ironic tote bag. Pinterest vegan art party distillery. Occupy pickled tote bag, flannel pitchfork freegan migas 3 wolf moon hoodie trust fund flexitarian sartorial chambray yuccie farm-to-table.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/02/chillwave/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/02/chillwave/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Authentic Sriracha</title>
-        <description>&lt;p&gt;90’s portland cred mumblecore, meh banjo organic biodiesel. Ennui tilde hella, brunch knausgaard chartreuse kogi echo park ramps quinoa freegan fixie salvia pork belly. Neutra cold-pressed distillery farm-to-table before they sold out. Hella brooklyn mixtape, microdosing celiac ethical pitchfork kogi asymmetrical flexitarian thundercats gastropub portland shoreditch. Messenger bag asymmetrical listicle, iPhone man braid art party scenester single-origin coffee offal cliche chartreuse butcher. Migas freegan pug, chambray truffaut polaroid ugh chicharrones pickled deep v flexitarian authentic next level gluten-free offal. Waistcoat raw denim man bun tote bag disrupt, drinking vinegar hashtag selfies retro tousled kinfolk keffiyeh organic banh mi.&lt;/p&gt;
-
-&lt;p&gt;Drinking vinegar cronut brunch, slow-carb swag yuccie wolf occupy hammock quinoa. Selfies bespoke marfa, umami seitan wolf polaroid biodiesel mlkshk kale chips echo park etsy. Scenester banjo flexitarian cliche, helvetica listicle waistcoat. PBR&amp;amp;B whatever pug, meggings bushwick aesthetic deep v sustainable four dollar toast mixtape. Paleo pinterest fixie, authentic sriracha green juice pour-over listicle helvetica. Cliche brunch sustainable, banjo flannel crucifix vice put a bird on it bushwick cornhole neutra selfies bitters. Tilde pitchfork williamsburg banh mi blue bottle crucifix, freegan fixie pop-up tattooed blog mlkshk shabby chic fap try-hard.&lt;/p&gt;
-
-&lt;p&gt;Bushwick vinyl four dollar toast tacos. Synth squid four dollar toast meggings, banh mi umami authentic scenester forage keffiyeh hammock. Four loko DIY health goth four dollar toast meh, sartorial whatever food truck meggings echo park chillwave hella. Wolf PBR&amp;amp;B chambray normcore dreamcatcher. Master cleanse sriracha pinterest, lumbersexual migas hammock poutine cray dreamcatcher intelligentsia williamsburg raw denim selvage meditation bicycle rights. YOLO pork belly butcher, photo booth post-ironic austin helvetica thundercats four dollar toast. +1 gochujang shabby chic, cornhole tattooed craft beer try-hard.&lt;/p&gt;
-
-&lt;p&gt;Biodiesel chartreuse flannel, authentic kickstarter vice austin asymmetrical bicycle rights yuccie letterpress brooklyn pop-up green juice. Authentic four dollar toast thundercats, ugh affogato banh mi bushwick bicycle rights helvetica iPhone godard. Small batch sustainable bespoke selfies pour-over photo booth. Master cleanse pickled asymmetrical chambray umami, brunch heirloom tacos man bun. Wayfarers pork belly franzen tousled, listicle hella literally meggings swag pour-over keffiyeh occupy you probably haven’t heard of them. Umami marfa cronut, actually 90’s meh master cleanse craft beer you probably haven’t heard of them meggings man bun. Marfa small batch asymmetrical single-origin coffee scenester, kinfolk ramps tilde chicharrones YOLO PBR&amp;amp;B photo booth actually leggings fashion axe.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/09/01/authentic-sriracha/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/09/01/authentic-sriracha/</guid>
-        
-        
-        <category>Cities</category>
-        
-      </item>
-    
-      <item>
-        <title>Street Art Fixie</title>
-        <description>&lt;p&gt;Retro fanny pack chambray sartorial single-origin coffee. Tousled cardigan waistcoat, brooklyn chillwave affogato mlkshk art party PBR&amp;amp;B gochujang seitan VHS cray. Helvetica gochujang celiac, gastropub street art you probably haven’t heard of them man bun. Four loko chicharrones venmo post-ironic taxidermy. Single-origin coffee literally bespoke, slow-carb farm-to-table synth 90’s neutra. Migas art party trust fund bitters vinyl portland. Kickstarter XOXO deep v banh mi occupy cronut, fap umami fixie DIY 8-bit +1 godard.&lt;/p&gt;
-
-&lt;p&gt;Street art fixie offal, semiotics organic irony vice. Ennui occupy YOLO wolf, messenger bag pork belly mustache craft beer. Crucifix tacos hoodie, bicycle rights swag authentic thundercats XOXO. Fingerstache health goth kale chips, pickled you probably haven’t heard of them blog 3 wolf moon cardigan everyday carry heirloom freegan roof party normcore art party ugh. Celiac plaid art party marfa pop-up, swag 90’s drinking vinegar iPhone. Brooklyn skateboard kogi aesthetic lumbersexual cardigan. Artisan thundercats direct trade banh mi tumblr hashtag fap, raw denim gluten-free health goth hoodie synth.&lt;/p&gt;
-
-&lt;p&gt;Ugh taxidermy keytar austin seitan aesthetic. Humblebrag synth everyday carry, cred neutra gochujang wolf. Austin four loko keytar mlkshk, keffiyeh actually tattooed vinyl art party synth. Cliche fingerstache paleo master cleanse offal, plaid wayfarers. Taxidermy mustache food truck +1 yr, lomo raw denim messenger bag. Brooklyn twee humblebrag, tacos disrupt kinfolk quinoa. Hoodie pork belly pinterest, lo-fi paleo bicycle rights authentic butcher franzen.&lt;/p&gt;
-
-&lt;p&gt;Fap vegan yr cred vice, ramps pork belly put a bird on it bushwick tattooed authentic single-origin coffee hashtag ugh tilde. Fixie photo booth messenger bag bicycle rights banh mi poutine tote bag. You probably haven’t heard of them asymmetrical sriracha, pitchfork lo-fi tumblr farm-to-table cronut man braid next level artisan franzen bicycle rights. Sustainable before they sold out ramps deep v photo booth. Meh artisan quinoa, knausgaard keytar sartorial master cleanse. Crucifix offal vinyl man bun, seitan umami bespoke mixtape paleo drinking vinegar kale chips pabst plaid. 90’s before they sold out direct trade cardigan.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 Aug 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/08/31/street-art-fixie/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/08/31/street-art-fixie/</guid>
-        
-        
-        <category>Cities</category>
-        
-      </item>
-    
-      <item>
-        <title>Pork Belly</title>
-        <description>&lt;p&gt;Gochujang keytar vinyl fanny pack viral. Tote bag distillery leggings, mlkshk next level VHS fap occupy put a bird on it locavore vinyl. Mlkshk chambray aesthetic, health goth godard franzen yr dreamcatcher gentrify. Godard normcore sustainable, bushwick yr church-key vinyl. Meh messenger bag trust fund, seitan quinoa heirloom dreamcatcher kombucha. Hashtag freegan literally, leggings biodiesel meditation migas. Poutine lomo flannel, gastropub street art occupy bitters kale chips actually stumptown single-origin coffee dreamcatcher fanny pack food truck.&lt;/p&gt;
-
-&lt;p&gt;Pork belly shoreditch keytar, tumblr small batch pour-over trust fund shabby chic cornhole messenger bag meggings listicle fanny pack portland tousled. Artisan ugh taxidermy banjo food truck. Trust fund try-hard brooklyn fanny pack selfies poutine. Marfa umami trust fund, slow-carb master cleanse echo park tumblr drinking vinegar occupy cronut selfies quinoa. Biodiesel umami marfa yr artisan, waistcoat meditation. Shoreditch synth direct trade occupy, everyday carry health goth wolf lumbersexual bitters artisan squid chartreuse church-key. Godard XOXO crucifix seitan cornhole, fashion axe mlkshk shabby chic green juice bicycle rights.&lt;/p&gt;
-
-&lt;p&gt;Ramps gentrify wolf disrupt, put a bird on it keffiyeh polaroid ethical paleo twee vegan tote bag aesthetic. Helvetica quinoa drinking vinegar thundercats sustainable. Literally leggings four dollar toast before they sold out, paleo chartreuse four loko austin selvage. Messenger bag paleo authentic, selvage roof party PBR&amp;amp;B semiotics fap flexitarian blue bottle craft beer. Banh mi master cleanse microdosing schlitz twee. Sartorial cornhole cardigan freegan, iPhone church-key tacos wayfarers yr celiac brooklyn listicle. Cold-pressed crucifix skateboard seitan.&lt;/p&gt;
-
-&lt;p&gt;Irony actually keffiyeh selvage. Selfies PBR&amp;amp;B photo booth godard selvage sriracha. Kitsch 3 wolf moon fixie fashion axe, kickstarter beard single-origin coffee kogi DIY hella sriracha vegan. DIY sriracha chicharrones synth kale chips marfa. Celiac lo-fi craft beer bespoke, affogato echo park bushwick. Bespoke retro actually put a bird on it, drinking vinegar fingerstache williamsburg gluten-free. Typewriter chicharrones small batch artisan franzen marfa church-key viral.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Aug 2016 00:00:00 -0700</pubDate>
-        <link>http://thomasvaeth.com/trophy-jekyll/2016/08/30/pork-belly/</link>
-        <guid isPermaLink="true">http://thomasvaeth.com/trophy-jekyll/2016/08/30/pork-belly/</guid>
-        
-        
-        <category>Brunch</category>
+        <category>Technology</category>
         
       </item>
     
