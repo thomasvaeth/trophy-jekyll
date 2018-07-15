@@ -26,7 +26,9 @@ layout: default
 
     <div class="tab">
       <ul itemscope itemtype="http://schema.org/Blog">
+
         {% for post in site.categories[page.title] %}
+
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
               <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -35,10 +37,13 @@ layout: default
               <span class="preview__more">Read More</span>
             </a>
           </li>
+
         {% endfor %}
+
       </ul>
 
       {% include archive-link.html %}
+      
     </div>
 
     {% include categories-tab.html %}

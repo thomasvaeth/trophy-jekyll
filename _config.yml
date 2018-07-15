@@ -1,14 +1,12 @@
-# Site settings
+# Site/SEO settings
 email: 
-baseurl: ""
-paginate: 5
-paginate_path: "/blog/page-:num"
+permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-# SEO settings
 title: Trophy
 description: 
 url: ""
+baseurl: ""
 twitter_username: 
 default_img: 
 
@@ -20,13 +18,27 @@ social:
   github: 
 
 # Build settings
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - octopress-autoprefixer
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - _screenshots
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page-:num"
 
 # Sass
 sass:
   style: compressed
-
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
