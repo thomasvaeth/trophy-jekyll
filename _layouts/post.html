@@ -27,9 +27,12 @@ layout: default
     <div class="post">
 
       {{ content }}
-      
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
     </div>
-  </section>
+    
+  </section
 
   <section class="profile">
     <div class="profile__card">
