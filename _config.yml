@@ -15,7 +15,13 @@ name:
 profile_img: 
 profile: 
 social:
-  github: 
+#  github: https://github.com/username/
+#  twitter: https://twitter.com/username/
+#  youtube: https://www.youtube.com/channel/channelid
+#  codepen: https://codepen.io/username/
+#  linkedin: https://www.linkedin.com/in/username/
+#  https://www.facebook.com/username/
+#  instagram: https://www.instagram.com/username/
 
 # Build settings
 markdown: kramdown
@@ -42,3 +48,8 @@ paginate_path: "/blog/page-:num"
 # Sass
 sass:
   style: compressed
+
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: username
