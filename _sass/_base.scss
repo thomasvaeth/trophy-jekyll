@@ -11,6 +11,7 @@ $color-alpha--light: #f5f3ef;
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
 $color-white: #fff;
+$color-blue: #323CFF;
 
 $mq-xs: 20em;
 $mq-sm: 30em;
@@ -33,15 +34,15 @@ body {
   line-height: 1.6;
 
   @media (min-width: $mq-xs) {
-    font-size: 102.5%;
+    font-size: 133.25%;
   }
 
   @media (min-width: $mq-sm) {
-    font-size: 105%;
+    font-size: 136%;
   }
 
   @media (min-width: $mq-md) {
-    font-size: 107.5%;
+    font-size: 140%;
   }
 
   @media (min-width: $mq-lg) {
@@ -65,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  $fontSize: 2.5em;
+  $fontSize: 4em;
 
   @media (min-width: $mq-md) {
     font-size: $fontSize;
@@ -79,23 +80,35 @@ h1 {
 h2 {
   margin-bottom: 0.25em;
 
-  font-size: 1.75em;
+  font-size: 3.5em;
 
   @media (min-width: $mq-md) {
-    font-size: 2em;
+    font-size: 4em;
   }
 }
 
 h3 {
   margin-bottom: 0.1em;
 
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 h4 {
   margin-bottom: 0.1em;
 
-  font-size: 1.25em;
+  font-size: 2.8em;
+}
+
+h5 {
+  margin-bottom: 0.1em;
+
+  font-size: 2.6em;
+}
+
+h6 {
+  margin-bottom: 0.1em;
+
+  font-size: 2.4em;
 }
 
 p {
@@ -110,7 +123,7 @@ a {
   &:hover,
   &:active,
   &:focus {
-    color: $color-alpha;
+    color: $color-blue;
   }
 }
 
@@ -122,27 +135,6 @@ img {
   display: block;
   width: 100%;
   max-width: 100%;
-}
-
-blockquote {
-  margin: 2em 0;
-
-  font-family: $font-header;
-  font-weight: 700;
-  font-size: 1.25em;
-}
-
-cite {
-  display: block;
-  margin-top: 0.125em;
-
-  font-family: $font-body;
-  font-weight: 400;
-  font-style: normal;
-
-  &:before {
-    content: "\2014 \0020";
-  }
 }
 
 ol, ul {
