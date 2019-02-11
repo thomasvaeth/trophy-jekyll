@@ -11,7 +11,6 @@ $color-alpha--light: #f5f3ef;
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
 $color-white: #fff;
-$color-blue: #323CFF;
 
 $mq-xs: 20em;
 $mq-sm: 30em;
@@ -123,7 +122,7 @@ a {
   &:hover,
   &:active,
   &:focus {
-    color: $color-blue;
+    color: $color-black;
   }
 }
 
