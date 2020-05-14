@@ -5,13 +5,13 @@ layout: default
   <div>
     <a class="nav nav--white" href="{{ site.baseurl }}/">
       <i class="fa fa-lg fa-arrow-left"></i>
-      <span>Back to Posts</span>
+      <span>{{ site.data.language.backto_cat }} {{ site.data.language.posts }}</span>
     </a>
     {% for post in site.categories[page.title] %}
       <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
     {% endfor %}
     <div class="previews__container">
-      <span>Category</span>
+      <span>{{ site.data.language.category }}</span>
       <h1>{{ page.title }}</h1>
     </div>
   </div>
@@ -20,7 +20,7 @@ layout: default
     <header>
       <ul class="tabs">
         <li class="tabs__item">{{ page.title }}</li>
-        <li class="tabs__item">Categories</li>
+        <li class="tabs__item">{{ site.data.language.categories }}</li>
       </ul>
     </header>
 
@@ -34,7 +34,7 @@ layout: default
               <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
               <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
               <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-              <span class="preview__more">Read More</span>
+              <span class="preview__more">{{ site.data.language.readmore }}</span>
             </a>
           </li>
 

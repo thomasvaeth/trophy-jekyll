@@ -1,0 +1,12 @@
+archive: "Archive"
+viewall: "View All"
+posts: "Posts"
+backto_cat: "Back to"
+category: "Category"
+categories: "Categories"
+readmore: "Read More"
+readnext: "Read Next"
+postedin_cat: "Posted in"
+pagination:
+  previous: "Previous"
+  next: "Next"
