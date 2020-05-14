@@ -20,7 +20,7 @@ social:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - octopress-autoprefixer
 compress_html:
@@ -36,8 +36,12 @@ exclude:
   - README.md
 
 # Pagination
-paginate: 5
-paginate_path: "/blog/page-:num"
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/blog/page-:num"
+  sort_field: 'date'
+  sort_reverse: true
 
 # Sass
 sass:
