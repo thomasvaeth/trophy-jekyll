@@ -6,11 +6,11 @@ layout: default
   <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
     <a class="nav nav--white" href="{{ site.baseurl }}/">
       <i class="fa fa-lg fa-arrow-left"></i>
-      <span>{{ site.data.language.backto_cat }} {{ site.data.language.posts }}</span>
+      <span>{{ site.data.language.goback }}</span>
     </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
+    <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}'); background-position: {{ page.image_position | default: 'center center' }};"></figure>
     <div class="mast__container">
-      <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
+      <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: site.date_format }}</time></span>
       <h1 itemprop="name headline">{{ page.title }}</h1>
       {% if page.categories.size > 0 %}
         <span>{{ site.data.language.postedin_cat }} 
@@ -32,24 +32,7 @@ layout: default
   </section>
 
   <section class="profile">
-    <div class="profile__card">
-      <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
-      </div>
-      <div class="profile__container">
-        <p>{{ site.profile }}</p>
-        {% if site.email or site.social %}
-          <ul class="profile__social">
-            {% if site.email %}
-              <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
-            {% endif %}
-            {% for social in site.social %}
-              <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </div>
-    </div>
+    {% include profile-card.html %}
   </section>
 
 </article>

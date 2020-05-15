@@ -14,8 +14,11 @@ default_img:
 name: 
 profile_img: 
 profile: 
-social:
-  github: 
+# social:
+#  github: 
+
+# formats
+date_format: "%b %-d, %Y"
 
 # Build settings
 markdown: kramdown

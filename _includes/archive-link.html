@@ -1,5 +1,5 @@
 <footer class="section-padding--sm footer">
-  <a class="footer__archive" href="{{ site.baseurl }}/archive/">{{ site.data.language.archive }}</a>
+  <a class="footer__archive" href="{% link archive.html %}">{{ site.data.language.archive }}</a>
   <ul class="footer__social">
     <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
     {% for social in site.social %}
