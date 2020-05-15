@@ -14,13 +14,16 @@ default_img:
 name: 
 profile_img: 
 profile: 
-social:
-  github: 
+# social:
+#  github: 
+
+# formats
+date_format: "%b %-d, %Y"
 
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - octopress-autoprefixer
 compress_html:
@@ -36,8 +39,26 @@ exclude:
   - README.md
 
 # Pagination
-paginate: 5
-paginate_path: "/blog/page-:num"
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/blog/page-:num"
+  sort_field: 'date'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories: 
+      layouts: 
+        - 'category_index.html'
+      # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+      title: ':cat'
+      # Optional, the permalink for the  pagination page (:cat is replaced), 
+      # the pagination permalink path is then appended to this permalink structure
+      permalink: '/category/:cat'
+      slugify:
+        mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+        case: false       # Whether to replace all uppercase letters with their lowercase counterparts
 
 # Sass
 sass:

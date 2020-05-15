@@ -1,5 +1,7 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 <section class="previews">
   <div>
@@ -9,7 +11,7 @@ layout: default
     {% endfor %}
     
     <div class="previews__container">
-      <span>Welcome to</span>
+      <span>{{ site.greeting }}</span>
       <h1>{{ site.title }}</h1>
     </div>
   </div>
@@ -17,8 +19,8 @@ layout: default
   <div>
     <header>
       <ul class="tabs">
-        <li class="tabs__item">Posts</li>
-        <li class="tabs__item">Categories</li>
+        <li class="tabs__item">{{ site.data.language.posts }}</li>
+        <li class="tabs__item">{{ site.data.language.categories }}</li>
       </ul>
     </header>
 
@@ -30,10 +32,10 @@ layout: default
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <article>
               <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-                <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</span>
                 <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
                 <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-                <span class="preview__more">Read More</span>
+                <span class="preview__more">{{ site.data.language.readmore }}</span>
               </a>
             </article>
           </li>
@@ -45,11 +47,11 @@ layout: default
       {% if paginator.total_pages > 1 %}
         <div class="pagination">
           {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">{{ site.data.language.pagination.previous }}</a>
           {% endif %}
 
           {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">{{ site.data.language.pagination.next }}</a>
           {% endif %}
         </div>
       {% endif %}

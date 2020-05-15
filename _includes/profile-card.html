@@ -1,0 +1,18 @@
+<div class="profile__card">
+  <div class="profile__img">
+    <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
+  </div>
+  <div class="profile__container">
+    <p>{{ site.profile }}</p>
+    {% if site.email or site.social %}
+      <ul class="profile__social">
+        {% if site.email %}
+          <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
+        {% endif %}
+        {% for social in site.social %}
+          <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>
